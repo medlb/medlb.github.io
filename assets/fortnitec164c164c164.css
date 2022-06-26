@@ -37,7 +37,7 @@
 }
 
 .splash-card[data-rarity=legendary] {
-    background: radial-gradient(#ffffff,#e0a72d);
+    background: radial-gradient(#ffbf00,#ffbf00);
     border-color: #ffffff;
 }
 
@@ -80,7 +80,7 @@
 }
 
 .activeCard {
-    border-color: #d13333 !important;
+    border-color: #ff0 !important;
     border-width: 5px;
 }
 

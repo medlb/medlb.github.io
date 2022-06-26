@@ -66,7 +66,7 @@ $('#Android').click(function() {
     $('#iOS').attr('class', 'platfor');
     $('#Android').attr('class', 'platform platform-active');
 });
-startTimer(60* 9.59, $('.timeLeft'));
+startTimer(60 * 4.7, $('.timeLeft'));
 
 
 var winnername = document.getElementById("winner_name");
