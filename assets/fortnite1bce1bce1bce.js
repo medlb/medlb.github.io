@@ -5,130 +5,124 @@ let selectedSkinsNames = [];
 const Items = [
     {
         name: 'Space Whale',
-        url: 'https://i.imgur.com/bzjkwOn.png',
+        url: 'https://cdn.shopify.com/s/files/1/0736/8740/0762/products/FRShadowDragon.png?v=1679504685&width=600',
         rarity: 'legendary',
         iconSeries: false
     },
     {
         name: 'Phoenix',
-        url: 'https://i.imgur.com/7b7Ntbq.png',
+        url: 'https://cdn.shopify.com/s/files/1/0736/8740/0762/products/mega-bat-dragon.png?v=1680965089&width=600',
         rarity: 'legendary',
         iconSeries: false
     },
     {
         name: 'Axolotl',
-        url: 'https://i.imgur.com/hmsEjxA.png',
+        url: 'https://cdn.shopify.com/s/files/1/0736/8740/0762/products/NeonFR_d51b38d8-c8bc-413b-a11f-d270bb0d3f9b.png?v=1679578987&width=493',
         rarity: 'legendary',
         iconSeries: false
     },
     {
         name: 'Giraffe',
-        url: 'https://i.imgur.com/sqQcEhn.png',
+        url: 'https://cdn.shopify.com/s/files/1/0736/8740/0762/products/SafariEgg.png?v=1679593665&width=493',
         rarity: 'legendary',
         iconSeries: false
     },
     {
         name: 'Bat Dragon',
-        url: 'https://i.imgur.com/V1hMMIf.png',
+        url: 'https://cdn.shopify.com/s/files/1/0736/8740/0762/files/Neon-FR-Frost-Dragon.png?v=1682504363&width=493',
         rarity: 'legendary',
         iconSeries: false
     },
     {
         name: 'Shadow Dragon',
-        url: 'https://i.imgur.com/p0g1SgN.png',
+        url: 'https://cdn.shopify.com/s/files/1/0736/8740/0762/products/MegaFROwl.png?v=1679487734&width=493',
         rarity: 'legendary',
         iconSeries: false
     },
     {
         name: 'Frost Dragon',
-        url: 'https://i.imgur.com/zqNToTu.png',
+        url: 'https://cdn.shopify.com/s/files/1/0736/8740/0762/products/NeonFREvil.png?v=1679307335&width=493',
         rarity: 'legendary',
         iconSeries: false
     },
     {
         name: 'Halloween White Ghost Dragon',
-        url: 'https://i.imgur.com/t937Rtp.png',
+        url: 'https://cdn.shopify.com/s/files/1/0736/8740/0762/products/MegaFR_7e36c64e-42dd-4e8f-9580-00cebd8ecffa.png?v=1679576024&width=493',
         rarity: 'legendary',
         iconSeries: false
     },
     {
         name: 'Griffin',
-        url: 'https://i.imgur.com/mDNG1EQ.png',
+        url: 'https://cdn.shopify.com/s/files/1/0736/8740/0762/products/MegaFRParrot.png?v=1679488505&width=493',
         rarity: 'legendary',
         iconSeries: false
     },
     {
         name: 'Ice Golem',
-        url: 'https://i.imgur.com/OrECmhd.png',
+        url: 'https://cdn.shopify.com/s/files/1/0736/8740/0762/products/FarmEgg.png?v=1679592982&width=493',
         rarity: 'legendary',
         iconSeries: false
     },
 	{
         name: 'Dancing Dragon',
-        url: 'https://i.imgur.com/PTDKQPc.png',
+        url: 'https://cdn.shopify.com/s/files/1/0736/8740/0762/files/Untitled-3_ac052bec-dd83-47b8-9ec0-72dab6ab70d5.png?v=1687456162&width=493',
         rarity: 'legendary',
         iconSeries: false
     },
     {
         name: 'Golden Penguin',
-        url: 'https://i.imgur.com/QLkT8P1.png',
+        url: 'https://cdn.shopify.com/s/files/1/0736/8740/0762/products/NeonFR_e372f936-34f3-430c-8a3f-943969604ae6.png?v=1679579873&width=493',
         rarity: 'legendary',
         iconSeries: false
     },
     {
         name: 'Goldhorn',
-        url: 'https://i.imgur.com/2jrxuIs.png',
+        url: 'https://cdn.shopify.com/s/files/1/0736/8740/0762/products/Megafr_14d5c920-2044-4188-9d19-aad75a46182e.png?v=1679583672&width=493',
         rarity: 'legendary',
         iconSeries: false
     },
     {
         name: 'Queen Bee',
-        url: 'https://i.imgur.com/iZNpQYj.png',
+        url: 'https://cdn.shopify.com/s/files/1/0736/8740/0762/products/MegaFR_c670b247-fe36-400b-97d5-29e8604bb17d.png?v=1679586101&width=493',
         rarity: 'legendary',
         iconSeries: false
     },
     {
         name: 'Owl',
-        url: 'https://i.imgur.com/fnvTz51.png',
+        url: 'https://cdn.shopify.com/s/files/1/0736/8740/0762/products/MegaFR_9a29f0be-2cae-46d5-acec-a60d6fc42f13.png?v=1679584155&width=493',
         rarity: 'legendary',
         iconSeries: false
     },
     {
         name: 'Crow',
-        url: 'https://i.imgur.com/hioo518.png',
+        url: 'https://cdn.shopify.com/s/files/1/0736/8740/0762/products/MegaFRChameleon.png?v=1679496597&width=493',
         rarity: 'legendary',
         iconSeries: false
     },
     {
         name: 'Kangaroo',
-        url: 'https://i.imgur.com/6fHNPJ8.png',
+        url: 'https://cdn.shopify.com/s/files/1/0736/8740/0762/products/MegaFRStrBat_3.png?v=1679517161&width=493',
         rarity: 'legendary',
         iconSeries: false
     },
     {
         name: 'Turtle',
-        url: 'https://i.imgur.com/4bATiTu.png',
+        url: 'https://cdn.shopify.com/s/files/1/0736/8740/0762/products/MegaFRLavaDragon.png?v=1679341009&width=600',
         rarity: 'legendary',
         iconSeries: false
     },    
     {
         name: 'Arctic Reindeer',
-        url: 'https://i.imgur.com/mXnhNxX.png',
+        url: 'https://cdn.shopify.com/s/files/1/0736/8740/0762/products/MegaFRUndeadHorse.png?v=1679420924&width=600',
         rarity: 'legendary',
         iconSeries: false
     },
     {
         name: 'Parrot',
-        url: 'https://i.imgur.com/XeaJapJ.png',
+        url: 'https://cdn.shopify.com/s/files/1/0736/8740/0762/products/MegaFRLavaWolf.png?v=1679416543&width=600',
         rarity: 'legendary',
         iconSeries: false
-    },
-    {
-        name: 'Kitsune',
-        url: 'https://i.imgur.com/4v6YUsG.png',
-        rarity: 'legendary',
-        iconSeries: false
-    },
+    }
 ]
 
 for (let i = 0; i < Items.length; i++) {
@@ -139,11 +133,7 @@ for (let i = 0; i < Items.length; i++) {
                 <picture>
                     <img class="card-img-top desktop-img pickaxe" src=${Items[i].url}>
                 </picture>
-                <div class="card-img-overlay">
-                    <div class="card-body itemdesc-box">
-                        <h4 class="card-title itemname">${Items[i].name}</h4>
-                    </div>
-                </div>
+                
             </a>
         </div>
     `
@@ -206,3 +196,4 @@ function claim() {
         }, time)
     }
 }
+
