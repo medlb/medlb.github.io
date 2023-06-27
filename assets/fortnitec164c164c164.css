@@ -79,9 +79,25 @@
     transform: scale3d(1.05,1.05,1);
 }
 
-.activeCard {
-    border-color: #ff0 !important;
+   .activeCard .card-img-top{
+    filter: blur(1px);
+   }
+
+ .activeCard {
+    border-color: rgb(218, 255, 5) !important;
     border-width: 5px;
+    
+    position: relative; 
+} 
+
+.image-number {
+    position: absolute;
+    top: 5px; /* Adjust the top position as needed */
+    right: 5px; /* Adjust the right position as needed */
+    
+    color: #fff; /* Set the text color of the number */
+    padding: 5px; /* Adjust the padding as needed */
+    font-size: 35px; /* Adjust the font size as needed */
 }
 
 .splash-card::before {
