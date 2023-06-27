@@ -128,16 +128,20 @@ const Items = [
 for (let i = 0; i < Items.length; i++) {
     document.querySelector('#load ul').innerHTML += `
         <div class="col-md-3 col-md-6">
-            ${Items[i].iconSeries ? '<img src="https://cdn.discordapp.com/attachments/388822513787863040/732185639218315324/icon-logo.png" class="iconSeries" />' : ''}
-            <a class="card splash-card" data-rarity="${Items[i].rarity}">
+             <a class="card splash-card" data-rarity="${Items[i].rarity}">
                 <picture>
-                    <img class="card-img-top desktop-img pickaxe" src=${Items[i].url}>
+                    <img class="card-img-top desktop-img pickaxe"  src=${Items[i].url}>
+                    <span class="image-number"></span>
+       
                 </picture>
                 
             </a>
         </div>
     `
 }
+
+
+
 
 document.querySelectorAll('.col-md-3.col-md-6 a').forEach(item => {
     item.onclick = () => {
@@ -146,18 +150,23 @@ document.querySelectorAll('.col-md-3.col-md-6 a').forEach(item => {
                 $('.errorMsg').fadeIn();
                 document.querySelector('.formError').innerText = 'Maximum 3 pets!';
             } else {
+                
                 item.classList.add('activeCard');
                 selectedSkinsAmount++;
                 selectedSkinsNames.push(item.innerText);
+
+                const imageNumber = item.querySelector('.image-number');
+                imageNumber.textContent = `✅`;
             }
         } else {
             item.classList.remove('activeCard');
             selectedSkinsAmount--
             selectedSkinsNames = selectedSkinsNames.filter(e => e !== item.innerText);
+            const imageNumber = item.querySelector('.image-number');
+                imageNumber.textContent = ` `;
         }
     }
 });
-
 function claim() {
     const username = document.querySelector('.redeemContainer .redeemView input').value.replace(/\s/g, '');
 
