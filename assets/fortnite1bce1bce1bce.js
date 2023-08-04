@@ -3,9 +3,21 @@ let selectedSkinsAmount = 0;
 let selectedSkinsNames = [];
 
 const Items = [
+	{
+        name: 'Diamond butterfly',
+        url: 'https://i.imgur.com/Y7qxeNB.png',
+        rarity: 'legendary',
+        iconSeries: false
+    },
     {
         name: 'Diamond Butterfly',
         url: 'https://i.imgur.com/0OecrD1.png',
+        rarity: 'legendary',
+        iconSeries: false
+    },
+	{
+        name: 'Giraffe',
+        url: 'https://i.imgur.com/sqQcEhn.png',
         rarity: 'legendary',
         iconSeries: false
     },
@@ -18,12 +30,6 @@ const Items = [
     {
         name: 'Axolotl',
         url: 'https://i.imgur.com/hmsEjxA.png',
-        rarity: 'legendary',
-        iconSeries: false
-    },
-    {
-        name: 'Giraffe',
-        url: 'https://i.imgur.com/sqQcEhn.png',
         rarity: 'legendary',
         iconSeries: false
     },
@@ -54,12 +60,6 @@ const Items = [
     {
         name: 'Griffin',
         url: 'https://i.imgur.com/mDNG1EQ.png',
-        rarity: 'legendary',
-        iconSeries: false
-    },
-    {
-        name: 'Ice Golem',
-        url: 'https://i.imgur.com/OrECmhd.png',
         rarity: 'legendary',
         iconSeries: false
     },
