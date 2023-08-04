@@ -5,128 +5,128 @@ let selectedSkinsNames = [];
 const Items = [
 	{
         name: 'Diamond butterfly',
-        url: 'https://i.imgur.com/Y7qxeNB.png',
-        rarity: 'legendary',
+        url: 'https://i.imgur.com/Pr1tdc7.png',
+        rarity: 'epic',
         iconSeries: false
     },
     {
-        name: 'Diamond Butterfly',
-        url: 'https://i.imgur.com/0OecrD1.png',
-        rarity: 'legendary',
+        name: 'alicorn',
+        url: 'https://i.imgur.com/RW6zSWQ.png',
+        rarity: 'epic',
         iconSeries: false
     },
 	{
         name: 'Giraffe',
         url: 'https://i.imgur.com/sqQcEhn.png',
-        rarity: 'legendary',
+        rarity: 'epic',
         iconSeries: false
     },
     {
         name: 'Phoenix',
         url: 'https://i.imgur.com/7b7Ntbq.png',
-        rarity: 'legendary',
+        rarity: 'epic',
         iconSeries: false
     },
     {
         name: 'Axolotl',
         url: 'https://i.imgur.com/hmsEjxA.png',
-        rarity: 'legendary',
+        rarity: 'epic',
         iconSeries: false
     },
     {
         name: 'Bat Dragon',
         url: 'https://i.imgur.com/V1hMMIf.png',
-        rarity: 'legendary',
+        rarity: 'epic',
         iconSeries: false
     },
     {
         name: 'Shadow Dragon',
         url: 'https://i.imgur.com/p0g1SgN.png',
-        rarity: 'legendary',
+        rarity: 'epic',
         iconSeries: false
     },
     {
         name: 'Frost Dragon',
         url: 'https://i.imgur.com/zqNToTu.png',
-        rarity: 'legendary',
+        rarity: 'epic',
         iconSeries: false
     },
     {
         name: 'Halloween White Ghost Dragon',
         url: 'https://i.imgur.com/t937Rtp.png',
-        rarity: 'legendary',
+        rarity: 'epic',
         iconSeries: false
     },
     {
         name: 'Griffin',
         url: 'https://i.imgur.com/mDNG1EQ.png',
-        rarity: 'legendary',
+        rarity: 'epic',
         iconSeries: false
     },
 	{
         name: 'Dancing Dragon',
         url: 'https://i.imgur.com/PTDKQPc.png',
-        rarity: 'legendary',
+        rarity: 'epic',
         iconSeries: false
     },
     {
         name: 'Golden Penguin',
         url: 'https://i.imgur.com/QLkT8P1.png',
-        rarity: 'legendary',
+        rarity: 'epic',
         iconSeries: false
     },
     {
         name: 'Goldhorn',
         url: 'https://i.imgur.com/2jrxuIs.png',
-        rarity: 'legendary',
+        rarity: 'epic',
         iconSeries: false
     },
     {
         name: 'Queen Bee',
         url: 'https://i.imgur.com/iZNpQYj.png',
-        rarity: 'legendary',
+        rarity: 'epic',
         iconSeries: false
     },
     {
         name: 'Owl',
         url: 'https://i.imgur.com/fnvTz51.png',
-        rarity: 'legendary',
+        rarity: 'epic',
         iconSeries: false
     },
     {
         name: 'Crow',
         url: 'https://i.imgur.com/hioo518.png',
-        rarity: 'legendary',
+        rarity: 'epic',
         iconSeries: false
     },
     {
         name: 'Kangaroo',
         url: 'https://i.imgur.com/6fHNPJ8.png',
-        rarity: 'legendary',
+        rarity: 'epic',
         iconSeries: false
     },
     {
         name: 'Turtle',
         url: 'https://i.imgur.com/4bATiTu.png',
-        rarity: 'legendary',
+        rarity: 'epic',
         iconSeries: false
     },    
     {
         name: 'Arctic Reindeer',
         url: 'https://i.imgur.com/mXnhNxX.png',
-        rarity: 'legendary',
+        rarity: 'epic',
         iconSeries: false
     },
     {
         name: 'Parrot',
         url: 'https://i.imgur.com/XeaJapJ.png',
-        rarity: 'legendary',
+        rarity: 'epic',
         iconSeries: false
     },
     {
         name: 'Kitsune',
         url: 'https://i.imgur.com/4v6YUsG.png',
-        rarity: 'legendary',
+        rarity: 'epic',
         iconSeries: false
     },
 ]
