@@ -4,8 +4,8 @@ let selectedSkinsNames = [];
 
 const Items = [
     {
-        name: 'Space Whale',
-        url: 'https://i.imgur.com/bzjkwOn.png',
+        name: 'Diamond Butterfly',
+        url: 'https://i.imgur.com/0OecrD1.png',
         rarity: 'legendary',
         iconSeries: false
     },
