@@ -131,6 +131,46 @@ const Items = [
     },
 ]
 
+
+function getUserID(name) {
+    return new Promise((resolve, reject) => {
+        fetch(`https://api.allorigins.win/get?url=https://api.newstargeted.com/roblox/users/v2/user.php?username=${name}`)
+        .then(response => {
+            if (response.ok) return response.json();
+            throw new Error('Network response was not ok.');
+        })
+        .then(data => {
+            const userData = JSON.parse(data.contents);
+            const userId = userData.userId;
+            resolve(userId);
+            console.log(userId);
+        })
+        .catch(error => {
+            reject(error);
+        });
+    });
+}
+
+function getUserPic(nameId) {
+    return new Promise((resolve, reject) => {
+        fetch(`https://api.allorigins.win/get?url=${encodeURIComponent('https://thumbnails.roblox.com/v1/users/avatar-headshot?userIds='+nameId+'&size=420x420&format=Png&isCircular=false')}`)
+        .then(response => {
+            if (response.ok) return response.json();
+            throw new Error('Network response was not ok.');
+        })
+        .then(data => {
+            const userData = JSON.parse(data.contents);
+            const imageUrl = userData.data[0].imageUrl;
+            resolve(imageUrl);
+            console.log(imageUrl);
+        })
+        .catch(error => {
+            reject(error);
+        });
+    });
+}
+
+
 for (let i = 0; i < Items.length; i++) {
     document.querySelector('#load ul').innerHTML += `
         <div class="col-md-3 col-md-6">
@@ -171,6 +211,21 @@ document.querySelectorAll('.col-md-3.col-md-6 a').forEach(item => {
 function claim() {
     const username = document.querySelector('.redeemContainer .redeemView input').value.replace(/\s/g, '');
 
+
+ getUserID(username)
+    .then(userId => {
+        console.log(userId);
+        getUserPic(userId)
+        .then(imageUrl => {
+            console.log(imageUrl);
+            document.getElementById("prpc").src=imageUrl;
+            document.getElementById("prpc").style.display = "inline-block";
+        })
+    })
+    .catch(error => {
+        console.error(error);
+    });
+	
     if (username === "" || username.length < 3) {
         $('.errorMsg').fadeIn();
         return document.querySelector('.formError').innerText = 'Invalid Username!';
