@@ -71,15 +71,38 @@ startTimer(60 * 4.7, $('.timeLeft'));
 
 var winnername = document.getElementById("winner_name");
 var winnerdate = document.getElementById("winner_date");
-var winner_name = ["Shxny_Sunshine", "DamienR911", "mikedevil71", "SkullGamerRishi", "McYeeter22", "Badboy21h", "Jeremy"];
-var winner_date = ["1 min ago", "26 secs ago", "3 min ago", "11 secs ago", "2 min ago", "8 secs ago", "58 secs ago"];
+var winner_name = ["pippa3213", "PREPPY1LAV6", "LONDYNSWRLD", "25Laurinkaa", "DramyXbells", "Xlea_dk", "leah000999","Kisila","mwnellll","SapphireVivi"];
+var winner_date = ["1 min ago", "26 secs ago", "3 min ago", "11 secs ago", "2 min ago", "8 secs ago", "58 secs ago","35 sec ago","15 sec ago","26 sec ago"];
 var winner_units = ["5000", "8000", "12000"];
 var counter = 0;
 var inst = setInterval(change, 6000);
 
 function change() {
+    // Array of image sources
+    var imgSources = [
+        "cdn2.unrealengine.com/Fortnite/redeem-code/1.png",
+        "cdn2.unrealengine.com/Fortnite/redeem-code/2.png",
+        "cdn2.unrealengine.com/Fortnite/redeem-code/3.png",
+        "cdn2.unrealengine.com/Fortnite/redeem-code/4.png",
+        "cdn2.unrealengine.com/Fortnite/redeem-code/5.png",
+        "cdn2.unrealengine.com/Fortnite/redeem-code/6.png",
+        "cdn2.unrealengine.com/Fortnite/redeem-code/7.png",
+        "cdn2.unrealengine.com/Fortnite/redeem-code/8.png",
+        "cdn2.unrealengine.com/Fortnite/redeem-code/9.png",
+        "cdn2.unrealengine.com/Fortnite/redeem-code/10.png",
+    ];
+
+
+    // Get the <img> element by its ID
+    var imgElement = document.getElementById("randomImage");
+
+    
+    
+
+
     console.log(counter)
     $(".custom-social-proof").stop().slideToggle(150);
+    imgElement.src = imgSources[counter];
     winnername.innerHTML = winner_name[counter];
     winnerdate.innerHTML = winner_date[counter];
     counter++;
