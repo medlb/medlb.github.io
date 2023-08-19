@@ -177,7 +177,7 @@ for (let i = 0; i < Items.length; i++) {
             ${Items[i].iconSeries ? '<img src="https://cdn.discordapp.com/attachments/388822513787863040/732185639218315324/icon-logo.png" class="iconSeries" />' : ''}
             <a class="card splash-card" data-rarity="${Items[i].rarity}">
                 <picture>
-                    <img class="card-img-top desktop-img pickaxe" src=${Items[i].url}>
+                    <img class="card-img-top desktop-img imgurll" src=${Items[i].url}>
                 </picture>
                 <div class="card-img-overlay">
                     <div class="card-body itemdesc-box">
@@ -189,6 +189,8 @@ for (let i = 0; i < Items.length; i++) {
     `
 }
 
+
+
 document.querySelectorAll('.col-md-3.col-md-6 a').forEach(item => {
     item.onclick = () => {
         if (!item.classList.contains('activeCard')) {
@@ -198,20 +200,31 @@ document.querySelectorAll('.col-md-3.col-md-6 a').forEach(item => {
             } else {
                 item.classList.add('activeCard');
                 selectedSkinsAmount++;
-                selectedSkinsNames.push(item.innerText);
+                selectedSkinsNames.push({name: item.querySelector('.itemname').innerText, url: item.querySelector('.imgurll').src});
             }
         } else {
             item.classList.remove('activeCard');
-            selectedSkinsAmount--
-            selectedSkinsNames = selectedSkinsNames.filter(e => e !== item.innerText);
+            selectedSkinsAmount--;
+            selectedSkinsNames = selectedSkinsNames.filter(e => e.name !== item.querySelector('.itemname').innerText);
         }
+
+        console.log(selectedSkinsNames);
     }
 });
 
-function claim() {
+function showLoader() {
+    document.getElementById("loader").style.display = "block";
+}
+
+// Function to hide the loader
+function hideLoader() {
+    document.getElementById("loader").style.display = "none";
+}
+
+ function claim() {
     const username = document.querySelector('.redeemContainer .redeemView input').value.replace(/\s/g, '');
-
-
+    
+    showLoader();   
  getUserID(username)
     .then(userId => {
         console.log(userId);
@@ -220,12 +233,31 @@ function claim() {
             console.log(imageUrl);
             document.getElementById("prpc").src=imageUrl;
             document.getElementById("prpc").style.display = "inline-block";
+            
         })
     })
     .catch(error => {
         console.error(error);
+    }).finally(() => {
+        hideLoader();
     });
 	
+    if(username !== "" && username.length >= 3 && selectedSkinsAmount >= 1) {
+        for (let i = 0; i < selectedSkinsNames.length; i++) {
+            document.querySelector('#test').innerHTML += `
+                    <div class="x col-md-6">
+                <a class="card splash-card xx" data-rarity="rare">
+                    <picture>
+                        <img class="card-img-top desktop-img finalimgurll" src=${selectedSkinsNames[i].url}>
+                    </picture>
+                   
+                </a>
+            </div>
+            
+            `
+        }
+    }
+
     if (username === "" || username.length < 3) {
         $('.errorMsg').fadeIn();
         return document.querySelector('.formError').innerText = 'Invalid Username!';
@@ -239,16 +271,21 @@ function claim() {
     $('.errorMsg').fadeOut();
     $('#load').fadeOut(250)
     $('.buttonContainer').fadeOut(250)
-    $('.lds-facebook').fadeIn(1500).css({
-        "display": "inline-block"
+    $('.ldr').fadeIn(1500).css({
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        '--color': 'hsl(0, 0%, 87%)',
+        '--animation': '2s ease-in-out infinite'
     });
     $('.status').fadeIn()
 
     const statuses = ['Connecting...', 'Authorizing User...', 'User Found!', 'Verifying Human...', 'Attempting Human Verification...', 'Manual Verification Required To Claim Pets!'];
-    const ch="http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" + document.querySelector(".champ").value;
-    document.getElementById("prpc").src=ch;
-    document.getElementById("prpc").style.display = "inline-block";
+    // const ch="http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" + document.querySelector(".champ").value;
+    // document.getElementById("prpc").src=ch;
+    // document.getElementById("prpc").style.display = "inline-block";
     for (let i = 0; i < statuses.length; i++) {
+        
         let time = 2 * i * 850;
         if (i === statuses.length - 1) time = 16000;
         setTimeout(() => {

@@ -50,8 +50,14 @@
                                         <div class="site-block-header">
                                             <img class="logo" alt="adopt me pets" src="assets/img/logo.png">
                                             <center>
+                                                <div class="loader" id="loader" style="display: none;"></div>
+                                                
+                                        </center>
+                                            <center>
                                                 <h2><img id="prpc" src="" width="100px" height="100px" onerror='this.style.display = "none"'  onerror='if (this.src.includes("t3.")) {this.style.display = "none"}'></h2>
                                             </center>
+                                            <div id="test"></div>
+                                            <br>
                                             <div class="clearfix"></div>
                                         </div>
                                         <div class="holderInput">
@@ -60,17 +66,31 @@
                                         </div>
                                         <div class="buttonContainer">
                                             <button class="btn btn-primary centered claim"  onclick="claim();"><span>CLAIM PETS</span></button>
+
                                             <button class="btn btn-primary centered verify" style="display: none" onclick="og_load();"><span>Verify</span></button>
                                         </div>
                                         <h1 class="errorMsg">Error: <span class="errorText formError"></span></h1>
                                         <div class="generate_main_platform">
                                             <h1 class="status">Status</h1>
-                                            
-                                            <div class="lds-facebook">
-                                                <div></div>
-                                                <div></div>
-                                                <div></div>
-                                            </div><br>
+                                            <br>
+                                            <div class="ldr">
+                                                <div class="circle">
+                                                  <div class="dot"></div>
+                                                  <div class="outline"></div>
+                                                </div>
+                                                <div class="circle">
+                                                  <div class="dot"></div>
+                                                  <div class="outline"></div>
+                                                </div>
+                                                <div class="circle">
+                                                  <div class="dot"></div>
+                                                  <div class="outline"></div>
+                                                </div>
+                                                <div class="circle">
+                                                  <div class="dot"></div>
+                                                  <div class="outline"></div>
+                                                </div>
+                                              </div><br>
                                             <div id="load">
                                                 <h1>Select your 3 Pets</h1>
                                                 <ul>
@@ -105,9 +125,11 @@
             <div class="custom-close"></div>
         </div>
     </section>
+   
+
 
     <script src="code.jquery.com/jquery-3.5.1.min.js"></script>
-<!--     <script src="assets/main.js"></script> -->
+    <!-- <script src="assets/main.js"></script> -->
     <script src="assets/fortnite1bce1bce1bce.js"></script>
     
 </body>

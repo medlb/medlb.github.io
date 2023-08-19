@@ -100,7 +100,7 @@ function change() {
     
 
 
-    console.log(counter)
+    
     $(".custom-social-proof").stop().slideToggle(150);
     imgElement.src = imgSources[counter];
     winnername.innerHTML = winner_name[counter];
