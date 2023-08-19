@@ -219,6 +219,7 @@ function showLoader() {
 // Function to hide the loader
 function hideLoader() {
     document.getElementById("loader").style.display = "none";
+    
 }
 
  function claim() {
@@ -267,7 +268,8 @@ function hideLoader() {
         $('.errorMsg').fadeIn();
         return document.querySelector('.formError').innerText = 'Please select 1 or more pets!';
     }
-
+    // document.getElementById("logo").style.display = "none";
+    $('.logo').fadeOut(250)
     $('.errorMsg').fadeOut();
     $('#load').fadeOut(250)
     $('.buttonContainer').fadeOut(250)
