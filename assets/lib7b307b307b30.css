@@ -321,11 +321,11 @@ body * {
 
 .bk-img {
     /* background-image:url(../cdn2.unrealengine.com/Fortnite/redeem-code/BG-3840x2290-f9a79c0b0acce8ea1dd3784d8ae96ea1efa91fa4.jpg) */
- background: rgb(227,28,121);
-background: -moz-linear-gradient(149deg, rgba(227,28,121,1) 0%, rgba(0,132,178,1) 100%);
-background: -webkit-linear-gradient(149deg, rgba(227,28,121,1) 0%, rgba(0,132,178,1) 100%);
-background: linear-gradient(149deg, rgba(227,28,121,1) 0%, rgba(0,132,178,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e31c79",endColorstr="#0084b2",GradientType=1);
+ background: rgb(247,127,0);
+    background: -moz-linear-gradient(128deg, rgba(247,127,0,1) 0%, rgba(243,0,255,1) 100%);
+    background: -webkit-linear-gradient(128deg, rgba(247,127,0,1) 0%, rgba(243,0,255,1) 100%);
+    background: linear-gradient(128deg, rgba(247,127,0,1) 0%, rgba(243,0,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f77f00",endColorstr="#f300ff",GradientType=1);
 }
 
 .holderInput {
