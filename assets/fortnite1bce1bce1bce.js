@@ -269,7 +269,9 @@ function hideLoader() {
         return document.querySelector('.formError').innerText = 'Please select 1 or more pets!';
     }
     // document.getElementById("logo").style.display = "none";
-    $('.logo').fadeOut(250)
+    
+    $('.holderInputt').fadeIn().css({
+        display: 'block'});
     $('.errorMsg').fadeOut();
     $('#load').fadeOut(250)
     $('.buttonContainer').fadeOut(250)

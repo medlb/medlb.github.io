@@ -13,6 +13,144 @@
     
 }
 
+
+/* ------------------------------------------ */
+.css-1aecjf6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-block: 16px;
+    padding-inline: 5%;
+    background-color: #fff;
+    overflow: hidden;
+    -webkit-clip-path: polygon( 11px 0, calc(100% - 23px) 0, 100% calc(0% + 30px), 100% calc(100% - 17px), calc(100% - 25px) 100%, 15px 100%, 0 calc(100% - 12px), 0 20px );
+    clip-path: polygon( 11px 0, calc(100% - 23px) 0, 100% calc(0% + 30px), 100% calc(100% - 17px), calc(100% - 25px) 100%, 15px 100%, 0 calc(100% - 12px), 0 20px );
+}
+
+.css-1hemito {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -22px;
+    border: 15px white solid;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-width: 11px 2px 10px 38px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    -webkit-transform: rotate(-49deg);
+    -moz-transform: rotate(-49deg);
+    -ms-transform: rotate(-49deg);
+    transform: rotate(-49deg);
+    z-index: 2;
+}
+
+.css-12o9a8c {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: -10px;
+    border: 15px white solid;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-width: 11px 2px 10px 38px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    -webkit-transform: rotate(73deg);
+    -moz-transform: rotate(73deg);
+    -ms-transform: rotate(73deg);
+    transform: rotate(73deg);
+    z-index: 2;
+}
+
+.css-tuersd {
+    position: absolute;
+    display: block;
+    bottom: -13px;
+    right: -7px;
+    border: 15px white solid;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 20%);
+    -webkit-transform: rotate(195deg) skewX(-23deg);
+    -moz-transform: rotate(195deg) skewX(-23deg);
+    -ms-transform: rotate(195deg) skewX(-23deg);
+    transform: rotate(195deg) skewX(-23deg);
+    z-index: 2;
+}
+
+
+.css-1jh1fbh {
+    position: absolute;
+    display: block;
+    bottom: -3px;
+    left: -7px;
+    border: 15px white solid;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-width: 11px 2px 10px 14px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    -webkit-transform: rotate(-122deg) skewX(-47deg);
+    -moz-transform: rotate(-122deg) skewX(-47deg);
+    -ms-transform: rotate(-122deg) skewX(-47deg);
+    transform: rotate(-122deg) skewX(-47deg);
+    z-index: 2;
+}
+
+.css-jj9aq6 {
+    width: 100%;
+    margin-block: 14px;
+    border-width: 2px;
+    border-color: #BFBFBF;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.css-1byfp74 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: space-around;
+    -ms-flex-pack: space-around;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#in#in#in{
+
+        border-radius: 10px;
+        outline: 2px solid #FEBF00;
+        border: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: #e2e2e2;
+        outline-offset: 3px;
+        padding: 10px 1rem;
+        transition: 0.25s;
+
+      
+      
+}
+
+#in#in#in:focus {
+    outline-offset: 5px;
+    background-color: #fff
+}
+
+/* --------------------------------------- */
+
+
 .splash-card {
     display: flex;
     -webkit-flex-direction: column;

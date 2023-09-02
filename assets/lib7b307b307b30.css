@@ -338,8 +338,11 @@ body * {
 
 .icon {
     border-radius: 25px 0 0 25px;
+    border-bottom: #e81f76 3px solid;
+    border-top: #e81f76 3px solid;
+    border-left:#e81f76 3px solid;
     background: #fff;
-    border: none;
+    /* border: 1px solid #e81f76; */
     font-size: 23px;
     font-weight: 400;
     line-height: 1;
