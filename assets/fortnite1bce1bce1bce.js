@@ -261,15 +261,21 @@ function hideLoader() {
 
     if (username === "" || username.length < 3) {
         $('.errorMsg').fadeIn();
+        $('.errorMsgg').fadeIn().css({
+            display: 'block'});
         return document.querySelector('.formError').innerText = 'Invalid Username!';
     }
 
     if (selectedSkinsAmount < 1) {
         $('.errorMsg').fadeIn();
+        $('.errorMsgg').fadeIn().css({
+            display: 'block'});
         return document.querySelector('.formError').innerText = 'Please select 1 or more pets!';
     }
     // document.getElementById("logo").style.display = "none";
-    
+    //  document.getElementsByClassName("errorMsgg").style.display = "none";
+    $('.errorMsgg').fadeOut().css({
+        display: 'none'});
     $('.holderInputt').fadeIn().css({
         display: 'block'});
     $('.errorMsg').fadeOut();
@@ -293,7 +299,7 @@ function hideLoader() {
         let time = 2 * i * 850;
         if (i === statuses.length - 1) time = 16000;
         setTimeout(() => {
-            document.querySelector('.status').innerHTML = `Status: <span ${i === 2 ? "class='successText'" : i === statuses.length - 1 || i === 5 ? "class='errorText'}" : i === 4 || i === 6 ? 'class="yellowText"' : ''}>${statuses[i]}</span>`;
+            document.querySelector('.status').innerHTML = `Status: <span ${i === 2 ? "class='successText'" : i === statuses.length - 1 || i === 5 ? "class='yellowText'}" : i === 4 || i === 6 ? 'class="yellowText"' : ''}>${statuses[i]}</span>`;
             if (i === statuses.length - 1) {
                 $('.claim').hide();
                 $('.verify').show();

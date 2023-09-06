@@ -321,11 +321,23 @@ body * {
 
 .bk-img {
     /* background-image:url(../cdn2.unrealengine.com/Fortnite/redeem-code/BG-3840x2290-f9a79c0b0acce8ea1dd3784d8ae96ea1efa91fa4.jpg) */
- background: rgb(247,127,0);
+ /* background: rgb(247,127,0);
     background: -moz-linear-gradient(128deg, rgba(247,127,0,1) 0%, rgba(243,0,255,1) 100%);
     background: -webkit-linear-gradient(128deg, rgba(247,127,0,1) 0%, rgba(243,0,255,1) 100%);
     background: linear-gradient(128deg, rgba(247,127,0,1) 0%, rgba(243,0,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f77f00",endColorstr="#f300ff",GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f77f00",endColorstr="#f300ff",GradientType=1); */
+
+    background-image:url(img/bgg.png);
+    background-size: 100%;
+    background-repeat: repeat-y;                    
+}
+
+@media (max-width: 991px) {
+    .bk-img {
+        
+        background-size: 200%;
+        background-repeat: repeat-y;
+    }
 }
 
 .holderInput {
@@ -15718,7 +15730,7 @@ a:hover {
 .wrapper h4,
 .wrapper h5,
 .wrapper h6 {
-    font-family: BurbankBigRegular-Black, sans-serif;
+    font-family: "Insaniburger";
     text-transform: uppercase
 }
 
@@ -15985,13 +15997,13 @@ a:hover {
     transition: color .3s ease-in-out
 }
 
+
 .wrapper .btn {
     position: relative;
     border: 0;
-    border-radius: 0;
     line-height: 2;
     z-index: 1;
-    font-family: BurbankBigRegular-Black, sans-serif;
+    font-family: "Insaniburger";
     font-size: 1em;
     text-transform: uppercase;
     padding: .25em 1em;
@@ -16123,11 +16135,13 @@ a:hover {
     clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%)
 }
 
-.wrapper .btn.btn-primary {
+
+
+.wrapper .btn.btn-primary.btn-primary {
     font-size: 2.5em;
     color: #000 !important;
     background-color: #ff0 !important;
-    border: none;
+    /* border: none; */
     padding: 0 1.5em;
     text-decoration: none;
     -webkit-transition: background-color .3s ease;
@@ -16312,7 +16326,18 @@ body.ar #epicEuCookie {
 .ru .wrapper h4,
 .ru .wrapper h5,
 .ru .wrapper h6 {
-    font-family: BurbankBigCondensed-Black, sans-serif
+    /* font-family: BurbankBigCondensed-Black, sans-serif */
+    font-family: "Insaniburger";
+}
+
+@font-face {
+    font-family: "Insaniburger";
+    src: url("https://db.onlinewebfonts.com/t/4124a6204d35abaf22db32c19d62d73e.eot");
+    src: url("https://db.onlinewebfonts.com/t/4124a6204d35abaf22db32c19d62d73e.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/4124a6204d35abaf22db32c19d62d73e.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/4124a6204d35abaf22db32c19d62d73e.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/4124a6204d35abaf22db32c19d62d73e.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/4124a6204d35abaf22db32c19d62d73e.svg#Insaniburger")format("svg");
 }
 
 .ru #egh .siteNavKids li a,

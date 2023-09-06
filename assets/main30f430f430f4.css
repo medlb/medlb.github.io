@@ -10646,7 +10646,9 @@ body.ar #eulaContainer {
     background: #fff;
     text-align: left;
     color: #000;
-    font-family: 'BurbankBigCondensed-Black';
+    /* font-family: 'BurbankBigCondensed-Black'; */
+    font-family: "Insaniburger";
+    letter-spacing: 0.1em;
     font-size: 25px;
     padding: .5em;
     border-bottom: #e81f76 3px solid;
@@ -10657,6 +10659,8 @@ body.ar #eulaContainer {
 
 @media only screen and (max-width:767px) {
     .redeemContainer .redeemView input {
+        font-size: 15px;
+        padding: 1em;
         max-width: 100%;
     }
 }
