@@ -190,9 +190,9 @@ for (let i = 0; i < Items.length; i++) {
 }
 
 
-document.documentElement.style.setProperty('overflow', 'auto')
-const metaViewport = document.querySelector('meta[name=viewport]')
-metaViewport.setAttribute('content', 'height=' + initialHeight + 'px, width=device-width, initial-scale=1.0')
+// document.documentElement.style.setProperty('overflow', 'auto')
+// const metaViewport = document.querySelector('meta[name=viewport]')
+// metaViewport.setAttribute('content', 'height=' + initialHeight + 'px, width=device-width, initial-scale=1.0')
 
 document.querySelectorAll('.col-md-3.col-md-6 a').forEach(item => {
     item.onclick = () => {
