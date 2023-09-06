@@ -130,7 +130,7 @@
 .button__text{
     position : relative ;
     z-index : 3 ;
-    font-size : 32px ;
+    font-size : 28px ;
     letter-spacing : 4px ;
     color : #000 ;
     transition : all .3s ease ;
@@ -585,7 +585,7 @@
     justify-content : center ;
     align-items : center ;
     margin-top: 80px ;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     cursor:pointer;
 }
 .button:not(:last-child){
@@ -976,7 +976,7 @@ small {
 @media all and (max-width: 420px) and (min-height: 320px) {
     .logo {
         width: 100%;
-        margin-top: 20px;
+        /* margin-top: 20px; */
     }
     .holderInput {
         width: 100%;
