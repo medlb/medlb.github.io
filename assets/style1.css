@@ -21,7 +21,7 @@
 
 
 
-/* Path: assets/fortnitec164c164c164.css */
+/* Path: assets/style1.css */
 @font-face {
     font-family: 'Fredoka';
     font-style: normal;
@@ -77,8 +77,8 @@
     display : flex ;
     justify-content : center ;
     align-items : center ;
-    width : 330px ;
-    height : 65px ;
+    width : 280px ;
+    height : 60px ;
     box-sizing : border-box ;
     text-decoration : none ;
     border : solid 3px #000 ;
@@ -586,6 +586,7 @@
     align-items : center ;
     margin-top: 80px ;
     margin-bottom: 30px;
+    cursor:pointer;
 }
 .button:not(:last-child){
     margin-bottom : 80px ;
