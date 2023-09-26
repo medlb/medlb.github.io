@@ -5,7 +5,7 @@ let selectedSkinsNames = [];
 const Items = [
     {
         name: 'Blazing Lion',
-        url: 'https://adoptmetradingvalues.com/images/1815.png',
+        url: 'https://i.imgur.com/lAXxqE1',
         rarity: 'epic',
         iconSeries: false
     },
@@ -183,7 +183,7 @@ for (let i = 0; i < Items.length; i++) {
             ${Items[i].iconSeries ? '<img src="https://cdn.discordapp.com/attachments/388822513787863040/732185639218315324/icon-logo.png" class="iconSeries" />' : ''}
             <a class="card splash-card" data-rarity="${Items[i].rarity}">
                 <picture>
-                    <img class="card-img-top desktop-img imgurll" src=${Items[i].url}>
+                    <img class="card-img-top desktop-img imgurll" width="512px" height="100%" src=${Items[i].url}>
                 </picture>
                 <div class="card-img-overlay">
                     <div class="card-body itemdesc-box">
