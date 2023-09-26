@@ -762,6 +762,7 @@
 .splash-card[data-rarity=epic] {
     background: radial-gradient(#c36aff,#4a2981);
     border-color: #c36aff;
+    border-radius: 10%;
 }
 
 .splash-card[data-rarity=legendary] {

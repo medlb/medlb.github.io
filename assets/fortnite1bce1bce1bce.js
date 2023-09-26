@@ -5,37 +5,25 @@ let selectedSkinsNames = [];
 const Items = [
     {
         name: 'Blazing Lion',
-        url: 'https://i.imgur.com/lAXxqE1',
-        rarity: 'epic',
-        iconSeries: false
-    },
-	{
-        name: 'Diamond butterfly',
-        url: 'https://i.imgur.com/Pr1tdc7.png',
+        url: 'https://i.imgur.com/YUcAZLv.png',
         rarity: 'epic',
         iconSeries: false
     },
     {
-        name: 'alicorn',
-        url: 'https://i.imgur.com/RW6zSWQ.png',
+        name: 'Kiwi',
+        url: 'https://i.imgur.com/fjKkQDs.png',
         rarity: 'epic',
         iconSeries: false
     },
-	{
+    {
+        name: 'Urban Egg',
+        url: 'https://i.imgur.com/gnSOSS0.png',
+        rarity: 'epic',
+        iconSeries: false
+    },
+    {
         name: 'Giraffe',
         url: 'https://i.imgur.com/sqQcEhn.png',
-        rarity: 'epic',
-        iconSeries: false
-    },
-    {
-        name: 'Phoenix',
-        url: 'https://i.imgur.com/7b7Ntbq.png',
-        rarity: 'epic',
-        iconSeries: false
-    },
-    {
-        name: 'Axolotl',
-        url: 'https://i.imgur.com/hmsEjxA.png',
         rarity: 'epic',
         iconSeries: false
     },
@@ -57,8 +45,34 @@ const Items = [
         rarity: 'epic',
         iconSeries: false
     },
+	{
+        name: 'Diamond butterfly',
+        url: 'https://i.imgur.com/Pr1tdc7.png',
+        rarity: 'epic',
+        iconSeries: false
+    },
     {
-        name: 'Halloween White Ghost Dragon',
+        name: 'alicorn',
+        url: 'https://i.imgur.com/RW6zSWQ.png',
+        rarity: 'epic',
+        iconSeries: false
+    },
+	
+    {
+        name: 'Phoenix',
+        url: 'https://i.imgur.com/7b7Ntbq.png',
+        rarity: 'epic',
+        iconSeries: false
+    },
+    {
+        name: 'Axolotl',
+        url: 'https://i.imgur.com/hmsEjxA.png',
+        rarity: 'epic',
+        iconSeries: false
+    },
+    
+    {
+        name: 'White Ghost Dragon',
         url: 'https://i.imgur.com/t937Rtp.png',
         rarity: 'epic',
         iconSeries: false
