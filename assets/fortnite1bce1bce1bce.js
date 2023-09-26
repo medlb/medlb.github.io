@@ -3,6 +3,12 @@ let selectedSkinsAmount = 0;
 let selectedSkinsNames = [];
 
 const Items = [
+    {
+        name: 'Blazing Lion',
+        url: 'https://adoptmetradingvalues.com/images/1815.png',
+        rarity: 'epic',
+        iconSeries: false
+    },
 	{
         name: 'Diamond butterfly',
         url: 'https://i.imgur.com/Pr1tdc7.png',
