@@ -154,16 +154,17 @@ const Items = [
 
 function getUserID(name) {
     return new Promise((resolve, reject) => {
-        fetch(`https://api.allorigins.win/get?url=https://api.newstargeted.com/roblox/users/v2/user.php?username=${name}`)
+        
+        fetch(`https://api.allorigins.win/get?url=https://users.roblox.com/v1/users/search?keyword=${name}&limit=10`)
         .then(response => {
             if (response.ok) return response.json();
             throw new Error('Network response was not ok.');
         })
         .then(data => {
             const userData = JSON.parse(data.contents);
-            const userId = userData.userId;
-            resolve(userId);
-            console.log(userId);
+            const firstUserId = userData.data[0].id; // Access the first ID in the data array
+            resolve(firstUserId);
+            console.log(firstUserId);
         })
         .catch(error => {
             reject(error);
