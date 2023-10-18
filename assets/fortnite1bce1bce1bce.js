@@ -9,18 +9,31 @@ const Items = [
         rarity: 'epic',
         iconSeries: false
     },
-    {
-        name: 'Kiwi',
-        url: 'https://i.imgur.com/fjKkQDs.png',
+	 {
+        name: 'Vampire Dragon',
+        url: 'https://i.imgur.com/7ZyPmHC.png',
         rarity: 'epic',
         iconSeries: false
     },
-    {
-        name: 'Urban Egg',
-        url: 'https://i.imgur.com/gnSOSS0.png',
+	{
+        name: 'Undead Elk',
+        url: 'https://i.imgur.com/cbvnsvk.png',
         rarity: 'epic',
         iconSeries: false
     },
+	{
+        name: 'Dire Stag',
+        url: 'https://i.imgur.com/7ZyPmHC.png',
+        rarity: 'epic',
+        iconSeries: false
+    },
+	{
+        name: 'Nightmare Owl',
+        url: 'https://i.imgur.com/NvkDdh5.png',
+        rarity: 'epic',
+        iconSeries: false
+    },
+	
     {
         name: 'Giraffe',
         url: 'https://i.imgur.com/sqQcEhn.png',
@@ -146,6 +159,24 @@ const Items = [
     {
         name: 'Kitsune',
         url: 'https://i.imgur.com/4v6YUsG.png',
+        rarity: 'epic',
+        iconSeries: false
+    },
+	{
+        name: 'Kiwi',
+        url: 'https://i.imgur.com/fjKkQDs.png',
+        rarity: 'epic',
+        iconSeries: false
+    },
+	{
+        name: 'Ghost',
+        url: 'https://i.imgur.com/oCZdJHE.png',
+        rarity: 'epic',
+        iconSeries: false
+    },
+    {
+        name: 'Urban Egg',
+        url: 'https://i.imgur.com/gnSOSS0.png',
         rarity: 'epic',
         iconSeries: false
     },
