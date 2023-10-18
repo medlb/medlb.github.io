@@ -11,7 +11,7 @@ const Items = [
     },
 	 {
         name: 'Vampire Dragon',
-        url: 'https://i.imgur.com/7ZyPmHC.png',
+        url: 'https://i.imgur.com/LRLcerz.png',
         rarity: 'epic',
         iconSeries: false
     },
