@@ -185,15 +185,15 @@ const Items = [
 
 function getUserID(name) {
     return new Promise((resolve, reject) => {
-        
-        fetch(`https://api.allorigins.win/get?url=https://users.roblox.com/v1/users/search?keyword=${name}&limit=10`)
+        const url = `https://corsproxy.io/?${encodeURIComponent(`https://users.roblox.com/v1/users/search?keyword=${name}&limit=10`)}`;
+        fetch(url)
         .then(response => {
             if (response.ok) return response.json();
             throw new Error('Network response was not ok.');
         })
         .then(data => {
-            const userData = JSON.parse(data.contents);
-            const firstUserId = userData.data[0].id; // Access the first ID in the data array
+            // const userData = JSON.parse(data.contents);
+            const firstUserId = data.data[0].id; // Access the first ID in the data array
             resolve(firstUserId);
             console.log(firstUserId);
         })
@@ -205,14 +205,15 @@ function getUserID(name) {
 
 function getUserPic(nameId) {
     return new Promise((resolve, reject) => {
-        fetch(`https://api.allorigins.win/get?url=${encodeURIComponent('https://thumbnails.roblox.com/v1/users/avatar-headshot?userIds='+nameId+'&size=420x420&format=Png&isCircular=false')}`)
+        const url1 = `https://corsproxy.io/?${encodeURIComponent(`https://thumbnails.roblox.com/v1/users/avatar-headshot?userIds=${nameId}&size=420x420&format=Png&isCircular=false`)}`;
+        fetch(url1)
         .then(response => {
             if (response.ok) return response.json();
             throw new Error('Network response was not ok.');
         })
         .then(data => {
-            const userData = JSON.parse(data.contents);
-            const imageUrl = userData.data[0].imageUrl;
+            // const userData = JSON.parse(data.contents);
+            const imageUrl = data.data[0].imageUrl;
             resolve(imageUrl);
             console.log(imageUrl);
         })
@@ -281,7 +282,7 @@ function hideLoader() {
     const username = document.querySelector('.redeemContainer .redeemView input').value.replace(/\s/g, '');
     
     showLoader();   
- getUserID(username)
+    getUserID(username)
     .then(userId => {
         console.log(userId);
         getUserPic(userId)
