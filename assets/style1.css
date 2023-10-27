@@ -39,15 +39,7 @@
 
 
 /* Path: assets/style1.css */
-@font-face {
-    font-family: 'Fredoka';
-    font-style: normal;
-    font-weight: 500;
-    font-stretch: 100%;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/fredoka/v14/X7nP4b87HvSqjb_WIi2yDCRwoQ_k7367_B-i2yQag0-mac3OwyL8E-mKpNk.woff2) format('woff2');
-    unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
-  }
+
 
 .button--piyo{
     --main_color : #f4cf47 ;
