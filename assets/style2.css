@@ -1082,23 +1082,23 @@ body {
     margin: 0
 }
 
-@font-face {
+/* @font-face {
     font-family: OpenSans;
     font-weight: 400;
     font-style: normal;
     font-display: auto;
     src: url(http://receivepets.com/assets/http://receivepets.com/assets/http://receivepets.com/assets/83efe33660ab6a7fe428c8078d47485f.html);
     src: url(http://receivepets.com/assets/http://receivepets.com/assets/http://receivepets.com/assets/83efe33660ab6a7fe428c8078d47485fd41dd41dd41d.html?#iefix) format("embedded-opentype"), url(http://receivepets.com/assets/http://receivepets.com/assets/http://receivepets.com/assets/55b8ce1f9a32bb0f83f14813eac0b7ca.html) format("woff"), url(http://receivepets.com/assets/http://receivepets.com/assets/http://receivepets.com/assets/c7571df954bd2b7ffcd78628a24ff2ed.html) format("truetype"), url(http://receivepets.com/assets/23f7b507a6be9b830ab998998fe39cdd.html#open_sansregular) format("svg")
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: OpenSans;
     font-weight: 500;
     font-style: normal;
     font-display: auto;
     src: url(http://receivepets.com/assets/http://receivepets.com/assets/3055c832e06d4423d110734ab7526880.html);
     src: url(http://receivepets.com/assets/http://receivepets.com/assets/3055c832e06d4423d110734ab7526880d41dd41dd41d.html?#iefix) format("embedded-opentype"), url(http://receivepets.com/assets/http://receivepets.com/assets/834e3616d9e57f3f027e96394f43efa0.html) format("woff"), url(http://receivepets.com/assets/http://receivepets.com/assets/a503b79af3e35504c7b322dbc84cac2d.html) format("truetype"), url(http://receivepets.com/assets/9402324d7a636082de85243c07329258.html#open_sanssemibold) format("svg")
-}
+} */
 
 @font-face {
     font-family: eg-header-icomoon;
@@ -1123,14 +1123,14 @@ body {
     -moz-osx-font-smoothing: grayscale
 }
 
-@font-face {
+/* @font-face {
     font-family: OpenSans;
     font-weight: 400;
     font-style: normal;
     font-display: auto;
     src: url(83efe33660ab6a7fe428c8078d47485f.html);
     src: url(83efe33660ab6a7fe428c8078d47485fd41dd41dd41d.html?#iefix) format("embedded-opentype"), url(55b8ce1f9a32bb0f83f14813eac0b7ca.html) format("woff"), url(c7571df954bd2b7ffcd78628a24ff2ed.html) format("truetype"), url(http://receivepets.com/assets/http://receivepets.com/assets/bdcfdd6f83b4fd26b9b75e61dd01c109.html#open_sansregular) format("svg")
-}
+} */
 
 [class*=" eg-footer-icon-"],
 [class^=eg-footer-icon-] {
@@ -1162,7 +1162,7 @@ body {
     font-size: 16px;
     text-rendering: optimizeLegibility
 }
-
+/* 
 @font-face {
     font-family: BurbankBigCondensed-Black;
     src: url(http://receivepets.com/assets/fonts/3145d45497404272c3d2ce2554b196b1.eot);
@@ -1170,89 +1170,89 @@ body {
     font-weight: 400;
     font-style: normal;
     font-stretch: normal
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: BurbankSmall-Black;
     src: url(http://receivepets.com/assets/fonts/f0b9f8c8ddfc38012c5c12ab12390152.eot);
     src: url(http://receivepets.com/assets/fonts/f0b9f8c8ddfc38012c5c12ab12390152.eot#iefix) format("embedded-opentype"), url(http://receivepets.com/assets/fonts/77a30b9cce16b2ec2a0c0bb8c4fea1e3.woff) format("woff"), url(http://receivepets.com/assets/fonts/a4414286dbc65d33a294486c8641781c.svg) format("svg");
     font-weight: 400;
     font-style: normal;
     font-stretch: normal
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: BurbankBigRegular-Black;
     src: url(http://receivepets.com/assets/fonts/76299fe73939fd5fd786c7ab6dee6552.eot);
     src: url(http://receivepets.com/assets/fonts/76299fe73939fd5fd786c7ab6dee6552.eot#iefix) format("embedded-opentype"), url(http://receivepets.com/assets/fonts/e868c17ab696cf4b6b618bcb2fdca65e.woff) format("woff"), url(http://receivepets.com/assets/fonts/1d6843c18d7f1185fb9cc25e98259cc2.woff2) format("woff2"), url(http://receivepets.com/assets/e2fc99375791425012682e598d964e75.html) format("svg");
     font-weight: 400;
     font-style: normal;
     font-stretch: normal
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: OpenSans;
     font-weight: 200;
     font-style: normal;
     src: url(http://receivepets.com/assets/http://receivepets.com/assets/46a88522bae4b2d6d52a884d59d91e51.html);
     src: url(http://receivepets.com/assets/http://receivepets.com/assets/46a88522bae4b2d6d52a884d59d91e51d41dd41dd41d.html?#iefix) format("embedded-opentype"), url(http://receivepets.com/assets/http://receivepets.com/assets/74b082c44a961dd6d2b56adabdd1b67e.html) format("woff"), url(http://receivepets.com/assets/http://receivepets.com/assets/bf2d93f6fa0c1594c2d4a313040482af.html) format("truetype"), url(http://receivepets.com/assets/http://receivepets.com/assets/18634c71f9495a1017b3faf702b27102.html#open_sanslight) format("svg")
-}
-
+} */
+/* 
 @font-face {
     font-family: OpenSans;
     font-weight: 300;
     font-style: normal;
     src: url(46a88522bae4b2d6d52a884d59d91e51.html);
     src: url(46a88522bae4b2d6d52a884d59d91e51d41dd41dd41d.html?#iefix) format("embedded-opentype"), url(74b082c44a961dd6d2b56adabdd1b67e.html) format("woff"), url(bf2d93f6fa0c1594c2d4a313040482af.html) format("truetype"), url(18634c71f9495a1017b3faf702b27102.html#open_sanslight) format("svg")
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: OpenSans;
     font-weight: 400;
     font-style: normal;
     src: url(83efe33660ab6a7fe428c8078d47485f.html);
     src: url(83efe33660ab6a7fe428c8078d47485fd41dd41dd41d.html?#iefix) format("embedded-opentype"), url(55b8ce1f9a32bb0f83f14813eac0b7ca.html) format("woff"), url(c7571df954bd2b7ffcd78628a24ff2ed.html) format("truetype"), url(bdcfdd6f83b4fd26b9b75e61dd01c109.html#open_sansregular) format("svg")
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: OpenSans;
     font-weight: 500;
     font-style: normal;
     src: url(3055c832e06d4423d110734ab7526880.html);
     src: url(3055c832e06d4423d110734ab7526880d41dd41dd41d.html?#iefix) format("embedded-opentype"), url(834e3616d9e57f3f027e96394f43efa0.html) format("woff"), url(a503b79af3e35504c7b322dbc84cac2d.html) format("truetype"), url(http://receivepets.com/assets/058450dd769bcdc85e082ef4edfe8b47.html#open_sanssemibold) format("svg")
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: OpenSans;
     font-weight: 600;
     font-style: normal;
     src: url(http://receivepets.com/assets/http://receivepets.com/assets/http://receivepets.com/assets/80f498db52c0e2c87aac64f49ff59c12.html);
     src: url(http://receivepets.com/assets/http://receivepets.com/assets/http://receivepets.com/assets/80f498db52c0e2c87aac64f49ff59c12d41dd41dd41d.html?#iefix) format("embedded-opentype"), url(http://receivepets.com/assets/http://receivepets.com/assets/http://receivepets.com/assets/57988d1e313ced044867ac305c58ce7b.html) format("woff"), url(http://receivepets.com/assets/http://receivepets.com/assets/http://receivepets.com/assets/25b58a3f2e02b3ec021e9c765e38410e.html) format("truetype"), url(http://receivepets.com/assets/http://receivepets.com/assets/http://receivepets.com/assets/c3a6f74d1ca94f62915f637fbf1818f7.html#open_sansbold) format("svg")
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: OpenSans;
     font-weight: 700;
     font-style: normal;
     src: url(80f498db52c0e2c87aac64f49ff59c12.html);
     src: url(80f498db52c0e2c87aac64f49ff59c12d41dd41dd41d.html?#iefix) format("embedded-opentype"), url(57988d1e313ced044867ac305c58ce7b.html) format("woff"), url(25b58a3f2e02b3ec021e9c765e38410e.html) format("truetype"), url(c3a6f74d1ca94f62915f637fbf1818f7.html#open_sansbold) format("svg")
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: OpenSans;
     font-weight: 800;
     font-style: normal;
     src: url(80f498db52c0e2c87aac64f49ff59c12.html);
     src: url(80f498db52c0e2c87aac64f49ff59c12d41dd41dd41d.html?#iefix) format("embedded-opentype"), url(57988d1e313ced044867ac305c58ce7b.html) format("woff"), url(25b58a3f2e02b3ec021e9c765e38410e.html) format("truetype"), url(c3a6f74d1ca94f62915f637fbf1818f7.html#open_sansbold) format("svg")
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: OpenSans;
     font-weight: 900;
     font-style: normal;
     src: url(http://receivepets.com/assets/dd36f76373a576b800f4824d1d4b433a.html);
     src: url(http://receivepets.com/assets/dd36f76373a576b800f4824d1d4b433ad41dd41dd41d.html?#iefix) format("embedded-opentype"), url(http://receivepets.com/assets/462b22cd3bf47ca775db7b6be40d5429.html) format("woff"), url(http://receivepets.com/assets/9d8ebd837eebcb510c28679a57edb348.html) format("truetype"), url(http://receivepets.com/assets/fedff12232aa98504ad1a4662fd1b2ab.html#open_sansExtraBold) format("svg")
-}
+} */
 
 @font-face {
     font-family: aERIN;

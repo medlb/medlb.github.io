@@ -53,13 +53,13 @@
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
-@font-face {
+/* @font-face {
     font-family: FontAwesome;
     src: url(http://receivepets.com/assets/674f50d287a8c48dc19ba404d20fe713.html);
     src: url(http://receivepets.com/assets/674f50d287a8c48dc19ba404d20fe713d41dd41dd41d.html?#iefix&v=4.7.0) format("embedded-opentype"), url(http://receivepets.com/assets/af7ae505a9eed503f8b8e6982036873e.html) format("woff2"), url(http://receivepets.com/assets/fee66e712a8a08eef5805a46892932ad.html) format("woff"), url(http://receivepets.com/assets/b06871f281fee6b241d60582ae9369b9.html) format("truetype"), url(http://receivepets.com/assets/912ec66d7572ff821749319396470bde.html#fontawesomeregular) format("svg");
     font-weight: 400;
     font-style: normal
-}
+} */
 
 .fa {
     display: inline-block;
