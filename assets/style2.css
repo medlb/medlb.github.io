@@ -254,6 +254,9 @@ body * {
         background-size: 200%;
         background-repeat: repeat-y
     }
+    .logo{
+        width: 100%;
+    }
 }
 
 .holderInput {
