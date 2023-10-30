@@ -5,7 +5,7 @@ let selectedSkinsNames = [];
 const Items = [
     {
         name: 'Blazing Lion',
-        url: 'https://i.imgur.com/LQi9O0F.png',
+        url: 'https://i.imgur.com/auadaQA.png',
         rarity: 'epic',
         iconSeries: false
     },
@@ -164,7 +164,7 @@ const Items = [
     },
 	{
         name: 'Kiwi',
-        url: 'https://i.imgur.com/pPMF7SH.png',
+        url: 'https://i.imgur.com/b9wDO5v.png',
         rarity: 'epic',
         iconSeries: false
     },
@@ -176,7 +176,7 @@ const Items = [
     },
     {
         name: 'Urban Egg',
-        url: 'https://i.imgur.com/3JQ0UCc.png',
+        url: 'https://i.imgur.com/qQm6meL.png',
         rarity: 'epic',
         iconSeries: false
     },
