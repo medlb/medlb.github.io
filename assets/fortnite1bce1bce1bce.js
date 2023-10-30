@@ -5,7 +5,7 @@ let selectedSkinsNames = [];
 const Items = [
     {
         name: 'Blazing Lion',
-        url: 'https://i.imgur.com/YUcAZLv.png',
+        url: 'https://i.imgur.com/LQi9O0F.png',
         rarity: 'epic',
         iconSeries: false
     },
