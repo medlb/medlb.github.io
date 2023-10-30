@@ -164,7 +164,7 @@ const Items = [
     },
 	{
         name: 'Kiwi',
-        url: 'https://i.imgur.com/fjKkQDs.png',
+        url: 'https://i.imgur.com/pPMF7SH.png',
         rarity: 'epic',
         iconSeries: false
     },
@@ -176,7 +176,7 @@ const Items = [
     },
     {
         name: 'Urban Egg',
-        url: 'https://i.imgur.com/gnSOSS0.png',
+        url: 'https://i.imgur.com/3JQ0UCc.png',
         rarity: 'epic',
         iconSeries: false
     },
