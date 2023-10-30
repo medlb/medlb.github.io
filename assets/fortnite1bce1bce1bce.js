@@ -226,11 +226,17 @@ function getUserPic(nameId) {
 for (let i = 0; i < Items.length; i++) {
     document.querySelector('#load ul').innerHTML += `
         <div class="col-md-3 col-md-6">
-            ${Items[i].iconSeries ? '<img src="https://cdn.discordapp.com/attachments/388822513787863040/732185639218315324/icon-logo.png" class="iconSeries" />' : ''}
+            ${Items[i].iconSeries ? '<img src="assets/img/titan.png" class="iconSeries" />' : ''}
             <a class="card splash-card" data-rarity="${Items[i].rarity}">
+
+            <picture>
+                <img class="card-img-top iconSeries" src='assets/img/titan.png'>
+            </picture>
+
                 <picture>
                     <img class="card-img-top desktop-img imgurll" src=${Items[i].url}>
                 </picture>
+                
                 <div class="card-img-overlay">
                     <div class="card-body itemdesc-box">
                         <h4 class="card-title itemname">${Items[i].name}</h4>

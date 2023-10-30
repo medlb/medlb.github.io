@@ -1009,6 +1009,13 @@ small {
         
         border-radius: 30%;
     }
+    .iconSeries {
+        z-index: 1 !important;
+        position: absolute !important;
+        left: 0px !important;
+        bottom: 30% !important;
+        top: auto !important;
+    }
 }
 
 .timer {
@@ -1035,11 +1042,14 @@ small {
 }
 
 .iconSeries {
-    position: absolute;
-    width: 70px;
+    /* position: absolute;
+    width: 100%;  */
     z-index: 1;
-    left: 22px;
-    top: -2px;
+     /* left: 22px;
+    top: -2px; */
+    position: absolute;
+    left: 0px;
+    top: 4px;
 }
 
 
