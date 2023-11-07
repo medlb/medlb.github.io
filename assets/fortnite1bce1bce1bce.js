@@ -230,9 +230,7 @@ for (let i = 0; i < Items.length; i++) {
             ${Items[i].iconSeries ? '<img src="assets/img/titan.png" class="iconSeries" />' : ''}
             <a class="card splash-card" data-rarity="${Items[i].rarity}">
 
-            <picture>
-                <img class="card-img-top iconSeries" src='assets/img/titan.png'>
-            </picture>
+            
 
                 <picture>
                     <img class="card-img-top desktop-img imgurll" src=${Items[i].url}>
