@@ -208,28 +208,27 @@ body * {
 } */
 @keyframes enlarge {
 	0% {
-		animation-timing-function: ease-out;
 		transform: scale(1);
-		transform-origin: center center;
+		
 	}
 
 	25% {
-		animation-timing-function: ease-in;
+		
 		transform: scale(0.91);
 	}
 
 	50% {
-		animation-timing-function: ease-out;
+		
 		transform: scale(0.98);
 	}
 
 	75% {
-		animation-timing-function: ease-in;
+		
 		transform: scale(0.87);
 	}
 
 	100% {
-		animation-timing-function: ease-out;
+		
 		transform: scale(1);
 	}
 }
