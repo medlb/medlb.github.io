@@ -1099,12 +1099,12 @@ small {
     .holderInput {
         width: 100%;
     }
-    .claim {
+    /* .claim {
         width: auto !important;
         letter-spacing: 1.5px !important;
         padding: 2px 40px !important;
         
-    }
+    } */
     .button-image{
         width: 100%; /* Adjust the width as needed */
         height: auto;
