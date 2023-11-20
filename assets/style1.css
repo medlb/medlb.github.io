@@ -16,6 +16,87 @@
  color: greenyellow;
 }
 
+.button-wrapper {
+	margin: 10px 0 20px;
+	position: relative;
+}
+.button-image{
+    cursor: pointer;
+    width: 100%; /* Adjust the width as needed */
+    height: auto;
+    transition: .3s;
+    animation: bounceIn 3s;
+    -webkit-animation: bounceIn 3s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+@media only screen and (min-width:991px) {
+    .button-image{
+        width: 30%; /* Adjust the width as needed */
+        height: auto;
+    }
+}
+@keyframes bounceIn {
+    from,
+    20%,
+    40%,
+    60%,
+    80%,
+    to {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+  
+    
+  
+    20% {
+      -webkit-transform: scale3d(1.1, 1.1, 1.1);
+      transform: scale3d(1.1, 1.1, 1.1);
+    }
+  
+    40% {
+      -webkit-transform: scale3d(0.9, 0.9, 0.9);
+      transform: scale3d(0.9, 0.9, 0.9);
+    }
+  
+    60% {
+      opacity: 1;
+      -webkit-transform: scale3d(1.03, 1.03, 1.03);
+      transform: scale3d(1.03, 1.03, 1.03);
+    }
+  
+    80% {
+      -webkit-transform: scale3d(0.97, 0.97, 0.97);
+      transform: scale3d(0.97, 0.97, 0.97);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+
+.mkt-btn {
+
+	content: '';
+	position: absolute;
+	display: block;
+	height: 100%;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background: url(img/img.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+    
+}
+
+
+
+
+
 
 .bttn.bttn.bttn{
     font-family: Insaniburger;
@@ -1023,6 +1104,10 @@ small {
         letter-spacing: 1.5px !important;
         padding: 2px 40px !important;
         
+    }
+    .button-image{
+        width: 100%; /* Adjust the width as needed */
+        height: auto;
     }
     .verify {
         width: 100% !important ;

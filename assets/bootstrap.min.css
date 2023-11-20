@@ -2200,6 +2200,7 @@ pre code {
 }
 
 @media (max-width: 1199.98px) {
+    
     .table-responsive-xl {
         display: block;
         width: 100%;

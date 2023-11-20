@@ -276,6 +276,7 @@ body * {
 }
 
 @media (max-width:991px) {
+    
     .bk-img {
         background-size: 200%;
         background-repeat: repeat-y
