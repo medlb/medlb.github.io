@@ -9,12 +9,20 @@
 @font-face {font-family:"new-rubrik";src:url("https://use.typekit.net/af/2cf326/00000000000000007735fea1/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/2cf326/00000000000000007735fea1/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/2cf326/00000000000000007735fea1/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;}@font-face {font-family:"new-rubrik";src:url("https://use.typekit.net/af/eb12df/00000000000000007735fea3/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/eb12df/00000000000000007735fea3/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/eb12df/00000000000000007735fea3/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;}@font-face {font-family:"new-rubrik";src:url("https://use.typekit.net/af/c68365/00000000000000007735fe9b/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/c68365/00000000000000007735fe9b/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/c68365/00000000000000007735fe9b/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;}@font-face {font-family:"new-rubrik";src:url("https://use.typekit.net/af/606776/00000000000000007735fea4/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/606776/00000000000000007735fea4/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/606776/00000000000000007735fea4/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;}.tk-new-rubrik{font-family:"new-rubrik",sans-serif;}
 
 
-@import url('https://fonts.cdnfonts.com/css/insaniburger');
+@font-face {
+  font-family: "Insaniburger";
+  src: url("https://db.onlinewebfonts.com/t/4124a6204d35abaf22db32c19d62d73e.eot");
+  src: url("https://db.onlinewebfonts.com/t/4124a6204d35abaf22db32c19d62d73e.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/4124a6204d35abaf22db32c19d62d73e.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/4124a6204d35abaf22db32c19d62d73e.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/4124a6204d35abaf22db32c19d62d73e.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/4124a6204d35abaf22db32c19d62d73e.svg#Insaniburger")format("svg");
+}
                 
 
 body {
   color: #753bbd;
-  font-family: 'Insaniburger', sans-serif;;
+  font-family: 'Insaniburger';
   font-size: 16px;
   font-weight: 800;
 
