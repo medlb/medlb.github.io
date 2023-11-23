@@ -255,6 +255,18 @@ footer {
     font-size: 16px;
   }
 }
+@media (-webkit-min-device-pixel-ratio:0) {
+  .first-page__content {
+    max-width: 356px;
+  }
+  .winners__item-img {
+    height: 32px;
+    width: 32px;
+  }
+  .winners__item-title--top {
+    margin-bottom: 2px;
+  }
+}
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   select:focus,
