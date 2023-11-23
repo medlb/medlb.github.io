@@ -22,7 +22,7 @@
 
 body {
   color: #753bbd;
-  font-family: 'Insaniburger';
+  font-family: 'new-rubrik';
   font-size: 16px;
   /* font-weight: 800; */
 
@@ -193,12 +193,12 @@ footer {
   font-size: 12px;
 }
 
-@media only screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio:0) {
+@media (max-width: 640px) {
   .first-page__content {
     max-width: 504px;
   }
 }
-@media  only screen and (max-width: 490px) and (-webkit-min-device-pixel-ratio:0){
+@media (max-width: 490px) {
   .first-page__content {
     max-width: 356px;
   }
@@ -210,26 +210,25 @@ footer {
     margin-bottom: 2px;
   }
 }
-@media only screen and (max-width: 410px) and (-webkit-min-device-pixel-ratio:0){
+@media (max-width: 410px) {
   .winners__item {
     margin: 0px auto 10px !important;
   }
   .first-page__winners {
     max-width: 280px;
-    margin: 0px auto 0px;
+    margin: 0px auto px;
   }
 }
-@media only screen and (max-width: 335px) and (-webkit-min-device-pixel-ratio:0){
+@media (max-width: 335px) {
   .first-page__content {
     max-width: 148px;
   }
 }
-@media only screen and (max-width: 490px) and (-webkit-min-device-pixel-ratio:0){
+@media (max-width: 490px) {
   .winners__item {
     margin: 0px auto;
   }
 }
-
 .second-page {
   align-items: center;
   display: flex;
@@ -264,12 +263,6 @@ footer {
     font-size: 16px;
   }
 }
-
-
-
-
-
-
 
 .successText{
   color: green;
