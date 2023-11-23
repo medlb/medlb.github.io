@@ -193,12 +193,12 @@ footer {
   font-size: 12px;
 }
 
-@media (max-width: 640px) {
+@media only screen and (max-width: 640px) {
   .first-page__content {
     max-width: 504px;
   }
 }
-@media (max-width: 490px) {
+@media  only screen and (max-width: 490px) {
   .first-page__content {
     max-width: 356px;
   }
@@ -210,7 +210,7 @@ footer {
     margin-bottom: 2px;
   }
 }
-@media (max-width: 410px) {
+@media only screen and (max-width: 410px) {
   .winners__item {
     margin: 0px auto 10px !important;
   }
@@ -219,12 +219,12 @@ footer {
     margin: 0px auto 0px;
   }
 }
-@media (max-width: 335px) {
+@media only screen and (max-width: 335px) {
   .first-page__content {
     max-width: 148px;
   }
 }
-@media (max-width: 490px) {
+@media only screen and (max-width: 490px) {
   .winners__item {
     margin: 0px auto;
   }
