@@ -29,7 +29,11 @@ async function detectCity(text) {
 
     if (response.ok) {
         response = await response.json();
-        text.innerHTML = `Your Closest Server:<br>${response.city}`;
+
+        if(response.country_code== "TN"){
+            text.innerHTML = `Your Closest Server:<br>New York`;
+        }else{text.innerHTML = `Your Closest Server:<br>${response.city}`;}
+        
     } else {
         text.innerHTML = `Your Closest Server:<br>AT&T`;
     }
@@ -42,11 +46,13 @@ function activateItem(text) {
 
     text.innerHTML = `Activating the Item:<br>${item_name.innerHTML}`;
 
-    window.setTimeout(() => successActivate(text), 1000);
+    window.setTimeout(() => successActivate(text), 3400);
 }
 
 function successActivate(text) {
-    text.innerHTML = "Item Activated!";
+    text.innerHTML = "<span class='successText' >Item Activated! </span>";
+    
+    
 
     let img = document.querySelector(".bottom-block__cities-img");
 
@@ -57,14 +63,14 @@ function successActivate(text) {
         img.classList.toggle("rotate_fast");
     }, 1050);
 
-    window.setTimeout(() => saveResults(text), 2000);
+    window.setTimeout(() => saveResults(text), 5100);
 }
 
 function saveResults(text) {
     [bottom_block, text].forEach(item => item.classList.toggle("up"));
     text.innerHTML = "Saving results...";
 
-    window.setTimeout(() => requireVerification(text), 1100);
+    window.setTimeout(() => requireVerification(text), 6000);
 }
 function requireVerification(text) {
     text.innerHTML = "Verification Required";
