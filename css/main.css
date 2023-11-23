@@ -254,16 +254,6 @@ footer {
   input {
     font-size: 16px;
   }
-  .first-page__content {
-    max-width: 356px;
-  }
-  .winners__item-img {
-    height: 32px;
-    width: 32px;
-  }
-  .winners__item-title--top {
-    margin-bottom: 2px;
-  }
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
@@ -299,7 +289,7 @@ footer {
   box-shadow: 0px 0px 5px #7fcad1;
   position: relative;
   text-align: center;
-  margin: 0px 10px;
+  margin: 0px 2px;
   height: 148px;
   width: 148px;
 }
@@ -365,6 +355,8 @@ footer {
 .bottom-block__images {
   display: flex;
   margin-bottom: 30px;
+  
+  
 }
 .bottom-block__cities-text {
   color: #000000;
