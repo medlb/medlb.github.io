@@ -193,12 +193,12 @@ footer {
   font-size: 12px;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 640px) {
+@media screen and (max-width: 640px) {
   .first-page__content {
     max-width: 504px;
   }
 }
-@media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 490px) {
+@media screen  and (max-width: 490px) {
   .first-page__content {
     max-width: 356px;
   }
@@ -210,7 +210,7 @@ footer {
     margin-bottom: 2px;
   }
 }
-@media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 410px) {
+@media screen  and (max-width: 410px) {
   .winners__item {
     margin: 0px auto 10px !important;
   }
@@ -219,12 +219,12 @@ footer {
     margin: 0px auto px;
   }
 }
-@media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 335px) {
+@media screen  and (max-width: 335px) {
   .first-page__content {
     max-width: 148px;
   }
 }
-@media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 490px) {
+@media screen  and (max-width: 490px) {
   .winners__item {
     margin: 0px auto;
   }
@@ -253,6 +253,16 @@ footer {
   textarea,
   input {
     font-size: 16px;
+  }
+  .first-page__content {
+    max-width: 356px;
+  }
+  .winners__item-img {
+    height: 32px;
+    width: 32px;
+  }
+  .winners__item-title--top {
+    margin-bottom: 2px;
   }
 }
 
