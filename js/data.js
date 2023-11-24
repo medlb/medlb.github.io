@@ -1,6 +1,11 @@
 export const data = [
     {
         "bgColor": "#d12ddf",
+        "name": "Blazing Lion",
+        "imageURL": "./img/items/0.png"
+    },
+    {
+        "bgColor": "#d12ddf",
         "name": "Shadow Dragon",
         "imageURL": "./img/items/1.png"
     },
@@ -18,6 +23,11 @@ export const data = [
         "bgColor": "#d12ddf",
         "name": "Lavender Dragon",
         "imageURL": "./img/items/4.png"
+    },
+    {
+        "bgColor": "#d12ddf",
+        "name": "Vampire Dragon",
+        "imageURL": "./img/items/vd.png"
     },
     {
         "bgColor": "#d12ddf",

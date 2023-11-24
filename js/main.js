@@ -105,7 +105,7 @@ window.setInterval(() => {
 
     for (let i = 1; i < 4; i++) {
         let img = document.querySelector(`#winner-${i}-img`);
-        img.src = `./img/items/${randomIntFromInterval(1, 20)}.webp`;
+        img.src = `./img/items/${randomIntFromInterval(0, 20)}.webp`;
         
         let text = document.querySelector(`#winner-${i}-text`);
         text.innerHTML = users.filter(item => !usernames.includes(item))[randomIntFromInterval(0, users.length - 5)];
