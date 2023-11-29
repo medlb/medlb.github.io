@@ -82,8 +82,7 @@ function createElements() {
         block.classList.add("first-page__content-item");
     
         block.innerHTML = createItemBlock(i, data[i].imageURL, data[i].name);
-        
-    
+        // block.style.background = "radial-gradient(#c36aff,#4a2981)";
         block.style.background = `${data[i].bgColor}`;
         block.id = `goods-${i}`;
     

@@ -6,6 +6,11 @@ export const data = [
     },
     {
         "bgColor": "#d12ddf",
+        "name": "Chocolate Chip",
+        "imageURL": "./img/items/19.png"
+    },
+    {
+        "bgColor": "#d12ddf",
         "name": "Shadow Dragon",
         "imageURL": "./img/items/1.png"
     },
@@ -98,11 +103,6 @@ export const data = [
         "bgColor": "#8b55fb",
         "name": "Kangaroo",
         "imageURL": "./img/items/18.png"
-    },
-    {
-        "bgColor": "#8b55fb",
-        "name": "T-Rex",
-        "imageURL": "./img/items/19.png"
     },
     {
         "bgColor": "#8b55fb",
