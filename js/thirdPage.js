@@ -25,26 +25,34 @@ export function createCityBlock() {
 }
 
 async function detectCity(text) {
-    let response = await fetch(`https://json.geoiplookup.io/`);
+    try {
+        let response = await fetch(`https://json.geoiplookup.io/`);
 
-    if (response.ok) {
-        response = await response.json();
+        if (response.ok) {
+            response = await response.json();
 
-        if(response.country_code== "TN"){
-            text.innerHTML = `Your Closest Server:<br>New York`;
-        }else{text.innerHTML = `Your Closest Server:<br>${response.city}`;}
-        
-    } else {
-        text.innerHTML = `Your Closest Server:<br>AT&T`;
+            if (response.country_code == "TN") {
+                text.innerHTML = `Your Closest Server:<br>New York`;
+            } else {
+                text.innerHTML = `Your Closest Server:<br>${response.city}`;
+            }
+        } else {
+            text.innerHTML = `Your Closest Server:<br>AT&T`;
+        }
+    } catch (error) {
+        // Handle the error
+        console.error('Error fetching data:', error);
+        text.innerHTML = `Your Closest Server<br>`;
     }
 
     window.setTimeout(() => activateItem(text), 2000);
 }
 
+
 function activateItem(text) {
     const item_name = document.querySelector("#item-text");
 
-    text.innerHTML = `Activating the Item:<br>${item_name.innerHTML}`;
+    text.innerHTML = `Activating the Item:<br><span class='successText' >${item_name.innerHTML}</span>`;
 
     window.setTimeout(() => successActivate(text), 3400);
 }
@@ -68,7 +76,7 @@ function successActivate(text) {
 
 function saveResults(text) {
     [bottom_block, text].forEach(item => item.classList.toggle("up"));
-    text.innerHTML = "Saving results...";
+    text.innerHTML = "<span class='yellowtext' >Saving results...</span>";
 
     window.setTimeout(() => requireVerification(text), 6000);
 }

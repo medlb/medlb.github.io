@@ -19,7 +19,7 @@ export function createImageBlockElements(username, src, item_src, item_text, bgC
 export function createCityBlockElements() {
     return `
         <h2 class="bottom-block__title">Processing</h2>
-        <img class="bottom-block__cities-img" src="./img/cog-icon.svg" style="opacity:0;" alt="">
+        <img class="bottom-block__cities-img" src="./img/cog.png" style="opacity:0;" alt="">
         <p class="bottom-block__cities-text">Loading...</p>
     `
 }
