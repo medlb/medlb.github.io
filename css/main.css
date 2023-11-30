@@ -11,7 +11,7 @@ body {
   font-family: 'Insaniburger';
   font-size: 16px;
   /* font-weight: 800; */
-  background-image: url(https://receivepets.com/assets/img/bgg.png);
+  background-image: url("../img/bgg.png");
   background-size: 100%;
   background-repeat: repeat-y;
 
