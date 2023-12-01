@@ -8,7 +8,7 @@ export function createImageBlockElements(username, src, item_src, item_text, bgC
             </div>
             <div class="goods-img" style="background: ${bgColor}">
                 <img src="${item_src}" id="item-img" alt width="140px" height="120px">
-                <p class="goods-img__text" id="item-text">${item_text}</p>
+                <p class="goods-img__text petname" id="item-text">${item_text}</p>
             </div>
         </div>
         <button class="bottom-block__btn" id="agree">Confirm</button>

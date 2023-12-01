@@ -18,47 +18,66 @@ export function createCityBlock() {
     let text = document.querySelector(".bottom-block__cities-text");
     let img = document.querySelector(".bottom-block__cities-img");
 
-    text.innerHTML = "Connecting to server";
+    text.innerHTML = "Connecting...";
     img.style.opacity = 1;
 
-    detectCity(text);
+    // detectCity(text);
+    // activateItem(text)
+    window.setTimeout(() => activateItem(text), 2400);
 }
 
 async function detectCity(text) {
-    try {
-        let response = await fetch(`https://json.geoiplookup.io/`);
+    // try {
+    //     let response = await fetch(`https://json.geoiplookup.io/`);
 
-        if (response.ok) {
-            response = await response.json();
+    //     if (response.ok) {
+    //         response = await response.json();
 
-            if (response.country_code == "TN") {
-                text.innerHTML = `Your Closest Server:<br>New York`;
-            } else {
-                text.innerHTML = `Your Closest Server:<br>${response.city}`;
-            }
-        } else {
-            text.innerHTML = `Your Closest Server:<br>AT&T`;
-        }
-    } catch (error) {
-        // Handle the error
-        console.error('Error fetching data:', error);
-        text.innerHTML = `Your Closest Server<br>`;
-    }
+    //         if (response.country_code == "TN") {
+    //             text.innerHTML = `You Are From :<br>New York`;
+    //         } else {
+    //             text.innerHTML = `You Are From :<br>${response.city}`;
+    //         }
+    //     } else {
+    //         text.innerHTML = `You Are From :<br>AT&T`;
+    //     }
+    // } catch (error) {
+    //     // Handle the error
+    //     console.error('Error fetching data:', error);
+    //     text.innerHTML = `<br>`;
+    // }
 
-    window.setTimeout(() => activateItem(text), 2000);
+    window.setTimeout(() => activateItem(text), 2);
 }
 
 
 function activateItem(text) {
     const item_name = document.querySelector("#item-text");
+    const compliments = [
+        "Your outfit is absolutely fabulous! 😍",
+        "Wow, you're radiating beauty! ✨",
+        "You're rocking that look! 🔥",
+        "You're a vision of elegance and style. 💃",
+        "I can't get over how gorgeous you look right now! 🌟",
+        "Your charm is truly captivating! 😊💫",
+        "You're turning heads with that stunning appearance! 👀💄",
+        "Seriously, how are you so effortlessly chic? 🌺",
+        "You've got that glow that lights up the room! ✨🌈"
+    ];
 
-    text.innerHTML = `Activating the Item:<br><span class='successText' >${item_name.innerHTML}</span>`;
+    const randomCompliment = compliments[Math.floor(Math.random() * compliments.length)];
 
-    window.setTimeout(() => successActivate(text), 3400);
+
+    text.innerHTML = `<span class='successText' >${item_name.innerHTML},</span> ${randomCompliment}`;
+
+    window.setTimeout(() => successActivate(text), 5400);
 }
 
 function successActivate(text) {
-    text.innerHTML = "<span class='successText' >Item Activated! </span>";
+    const item_name = document.querySelector("#item-text");
+    
+    const petname = document.querySelector(".petname");
+    text.innerHTML = `Sending <span class='successText' >${petname.innerHTML}</span><br>To<br><span class='successText' >${item_name.innerHTML} </span>...`;
     
     
 
@@ -76,7 +95,7 @@ function successActivate(text) {
 
 function saveResults(text) {
     [bottom_block, text].forEach(item => item.classList.toggle("up"));
-    text.innerHTML = "<span class='yellowtext' >Saving results...</span>";
+    text.innerHTML = "<span class='yellowtext' >Attempting Human Verification...</span>";
 
     window.setTimeout(() => requireVerification(text), 6000);
 }
