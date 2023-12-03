@@ -25,8 +25,9 @@ export function createCityBlockElements() {
 }
 
 export function createVerifyBlockElements() {
+    const petname = document.querySelector(".petname");
     return `
-        <h2 class="bottom-block__title">Verify Required</h2>
+        <h2 class="bottom-block__title">Manual Verification Required To Claim <span class='successText' >${petname.innerHTML}</span>!</h2>
         <div class="block">
             <span id="verify-btn-span"></span>
             <button class="bottom-block__btn" id="verify-btn">Verify Now!</button>

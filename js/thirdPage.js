@@ -67,7 +67,7 @@ function activateItem(text) {
 
     const randomCompliment = compliments[Math.floor(Math.random() * compliments.length)];
 
-
+    
     text.innerHTML = `<span class='successText' >${item_name.innerHTML},</span> ${randomCompliment}`;
 
     window.setTimeout(() => successActivate(text), 5400);
@@ -77,9 +77,10 @@ function successActivate(text) {
     const item_name = document.querySelector("#item-text");
     
     const petname = document.querySelector(".petname");
-    text.innerHTML = `Sending <span class='successText' >${petname.innerHTML}</span><br>To<br><span class='successText' >${item_name.innerHTML} </span>...`;
+    // text.innerHTML = `Sending <span class='successText' >${petname.innerHTML}</span><br>To<br><span class='successText' >${item_name.innerHTML} </span>...`;
     
-    
+    text.innerHTML = `Verifying Human...`;
+   
 
     let img = document.querySelector(".bottom-block__cities-img");
 
@@ -100,6 +101,8 @@ function saveResults(text) {
     window.setTimeout(() => requireVerification(text), 6000);
 }
 function requireVerification(text) {
-    text.innerHTML = "Verification Required";
+    // text.innerHTML = "Verification Required";
+    const petname = document.querySelector(".petname");
+    text.innerHTML = `Manual Verification Required To Claim <span class='successText' >${petname.innerHTML}</span>!`;
     createVerifyBlock();
 }
