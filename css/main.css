@@ -1,9 +1,9 @@
-@font-face {
+/* @font-face {
   font-family: 'Insaniburger'; 
   src: url('Insanibu.ttf') format('truetype'); 
   font-weight: normal;
   font-style: normal;
-}
+} */
                 
 
 body {
@@ -11,7 +11,7 @@ body {
   font-family: 'Insaniburger';
   font-size: 16px;
   /* font-weight: 800; */
-  background-image: url("../img/bgg.png");
+  background-image: url("../img/bgg.webp");
   background-size: 100%;
   background-repeat: repeat-y;
 
