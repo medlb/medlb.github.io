@@ -254,7 +254,7 @@ footer {
   padding-top: 10px;
 }
 .first-page__img {
-  height: auto;
+  height: auto !important;
   margin-bottom: 10px;
   padding-top: 10px;
 }
