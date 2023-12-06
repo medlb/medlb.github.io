@@ -3,6 +3,7 @@
   src: url('Insanibu.ttf') format('truetype'); 
   font-weight: normal;
   font-style: normal;
+  font-display: swap; 
 }
                 
 
@@ -214,7 +215,7 @@ body {
 }
 
 header {
-  background: url("../img/header.png");
+  background: url("../img/header.webp");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -303,7 +304,7 @@ footer {
 .winners__item {
   align-items: center;
   border-radius: 5px;
-  background: #f9dba9;
+  background: #FBEAD0;
   display: flex;
   margin-right: 20px;
   opacity: 1;
@@ -321,13 +322,13 @@ footer {
   padding: 5px 5px 5px 0px;
 }
 .winners__item-title--top {
-  color: #ff147a;
+  color: #990040;
   font-weight: 700;
   font-size: 14px;
   margin-bottom: 5px;
 }
 .winners__item-title--bottom {
-  color: #797979;
+  color: #4D4D4D;
   font-size: 12px;
 }
 
