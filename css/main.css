@@ -295,6 +295,7 @@ footer {
 .item__text {
   letter-spacing: 0.5px;
   /* background: #753bbd; */
+  -webkit-backdrop-filter: blur(100px);
   backdrop-filter: blur(100px);
   padding: 5px 0px;
   color: white;
