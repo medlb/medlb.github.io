@@ -7,7 +7,7 @@ export const data = [
     {
         "bgColor": "radial-gradient(circle, rgba(255,95,95,1) 0%, rgba(25,2,92,1) 100%)",
         "name": "Chocolate Chip",
-        "imageURL": "./img/items/119.webp"
+        "imageURL": "./img/items/129.webp"
     },
     {
         "bgColor": "radial-gradient(circle, rgba(255,95,95,1) 0%, rgba(25,2,92,1) 100%)",
