@@ -77,17 +77,17 @@ users = [
 createElements();
 
 function createElements() {
-    for (let i = 0; i < data.length; i++) {
-        let block = document.createElement("div");
-        block.classList.add("first-page__content-item");
+    // for (let i = 0; i < data.length; i++) {
+    //     let block = document.createElement("div");
+    //     block.classList.add("first-page__content-item");
     
-        block.innerHTML = createItemBlock(i, data[i].imageURL, data[i].name);
-        // block.style.background = "radial-gradient(#c36aff,#4a2981)";
-        block.style.background = `${data[i].bgColor}`;
-        block.id = `goods-${i}`;
+    //     block.innerHTML = createItemBlock(i, data[i].imageURL, data[i].name);
+    //     // block.style.background = "radial-gradient(#c36aff,#4a2981)";
+    //     block.style.background = `${data[i].bgColor}`;
+    //     block.id = `goods-${i}`;
     
-        section.append(block);
-    }
+    //     section.append(block);
+    // }
 
     const items = document.querySelectorAll(".first-page__content-item");
 
