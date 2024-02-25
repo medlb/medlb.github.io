@@ -20,6 +20,69 @@ body {
   flex-direction: column;
   min-height: 100vh; 
 }
+
+.glow{
+ 
+  border:0px solid white;
+  border-radius:1rem;
+  position:relative;
+  background-color:rgb(255, 255, 255);
+  
+}
+
+:root{
+  --azul:rgb(255, 0, 106);
+  --violeta: rgb(63, 16, 204);
+  --blanco: white;
+  --deg:0deg;
+    
+}
+@property --deg{
+  syntax:'<angle>';
+  inherits:false;
+  initial-value:0deg;
+}
+.glow::after{
+  
+  content:'';
+  border-radius:inherit;
+  inset:-0.5rem;
+  background-color:Red;
+  position:absolute;
+  z-index:-1;
+  background:conic-gradient( from var(--deg),var(--azul),var(--violeta),var(--azul));
+  animation:girar 5s linear infinite;
+}
+
+.glow::before{
+  filter:blur(40px);
+  --deg:0deg;
+  content:'';
+  border-radius:inherit;
+  inset:-1.0rem;
+  background-color:Red;
+  position:absolute;
+  z-index:-1;
+  background:conic-gradient( from var(--deg),var(--azul),var(--violeta),var(--azul));
+  animation:girar 5s linear infinite;
+}
+
+
+@keyframes girar {
+  from{
+    --deg:0deg;
+  }
+  
+  to{
+    --deg:360deg;
+  }
+}
+.scrollframe{
+  border:10px  purple;
+  border-radius: 30px;
+  background-color: white;
+}
+
 /* .loader {
   
   width: 48px;
@@ -204,6 +267,31 @@ body {
 
 /* ------------------ */
 
+.scrollable-frame {
+  height: calc(100vh - 350px); /* Adjust the height as needed */
+  overflow-y: auto;
+  border-radius:1rem;
+  
+}
+
+.scrollable-frame::-webkit-scrollbar {
+  
+  width: 10px;
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  
+}
+
+
+.scrollable-frame::-webkit-scrollbar-thumb {
+  background-color: #F90;
+  border-radius: 10px;
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+}
+
+
+
+
 @keyframes rotationBack {
   0% {
     transform: rotate(0deg);
@@ -215,14 +303,15 @@ body {
 }
 
 header {
-  background: url("../img/header.webp");
+  background: url(../img/header.webp);
   background-size: cover;
   background-position: center;
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 0 0 30px 30px;
+  border-radius: 30px;
+  margin: 10px auto 0;
 }
 
 footer {
@@ -242,7 +331,7 @@ footer {
   height: 100%;
   max-width: 1000px;
   margin: 0px auto;
-  padding: 20px 10px 0px;
+  padding: 0px 10px 0px;
 
   flex: 1 0 auto;
 }
@@ -282,7 +371,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   max-width: 652px;
-  margin: 0px auto;
+  margin: 6px auto;
 }
 .first-page__content-item {
   border: 2px solid #753bbd;
@@ -401,6 +490,7 @@ footer {
   flex-direction: column;
 }
 .second-page__bottom-block {
+  padding-top: 20px;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -500,7 +590,7 @@ footer {
   text-align: center;
   font-weight: 800;
   font-size: 24px;
-  /* padding-top: 20px; */
+  padding-top: 20px !important; 
   margin-bottom: 20px;
   color: #ededed;
   letter-spacing: 2px;
