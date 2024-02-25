@@ -15,7 +15,7 @@ body {
   background-image: url("../img/bgg.webp");
   background-size: 100%;
   background-repeat: repeat-y;
-
+max-width: fit-content;
   display: flex;
   flex-direction: column;
   min-height: 100vh; 
@@ -51,7 +51,7 @@ body {
   position:absolute;
   z-index:-1;
   background:conic-gradient( from var(--deg),var(--azul),var(--violeta),var(--azul));
-  animation:girar 5s linear infinite;
+  
 }
 
 .glow::before{
@@ -64,19 +64,11 @@ body {
   position:absolute;
   z-index:-1;
   background:conic-gradient( from var(--deg),var(--azul),var(--violeta),var(--azul));
-  animation:girar 5s linear infinite;
-}
-
-
-@keyframes girar {
-  from{
-    --deg:0deg;
-  }
   
-  to{
-    --deg:360deg;
-  }
 }
+
+
+
 .scrollframe{
   border:10px  purple;
   border-radius: 30px;
@@ -332,6 +324,7 @@ footer {
   max-width: 1000px;
   margin: 0px auto;
   padding: 0px 10px 0px;
+  width: 90%;
 
   flex: 1 0 auto;
 }
