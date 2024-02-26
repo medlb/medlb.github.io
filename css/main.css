@@ -12,9 +12,9 @@ body {
   font-family: 'Insaniburger';
   font-size: 16px;
   /* font-weight: 800; */
-  background-image: url("../img/bgg.webp");
-  background-size: 100%;
-  background-repeat: repeat-y;
+  /* background-image: url("../img/bgg.webp"); */
+  /* background-size: 100%;
+  background-repeat: repeat-y; */
 max-width: fit-content;
   display: flex;
   flex-direction: column;
@@ -55,7 +55,7 @@ max-width: fit-content;
 }
 
 .glow::before{
-  filter:blur(40px);
+  filter:blur(5px);
   --deg:0deg;
   content:'';
   border-radius:inherit;
@@ -121,7 +121,7 @@ max-width: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
-  --color: hsl(0, 0%, 87%);
+  --color: hsl(282, 100%, 50%);
   --animation: 2s ease-in-out infinite;
 }
 
@@ -359,7 +359,7 @@ footer {
   text-align: center;
   padding-top: 10px;
   margin-bottom: 20px;
-  color: #ededed;
+  color: #ff147a;
 }
 .first-page__content {
   display: flex;
@@ -529,7 +529,7 @@ footer {
   color: green;
 }
 .yellowtext{
-  color:yellow;
+  color:rgb(255, 157, 0);
 }
 .successText{
   color: greenyellow;
@@ -581,19 +581,20 @@ footer {
 }
 
 .bottom-block__title {
+
   text-align: center;
   font-weight: 800;
   font-size: 24px;
   padding-top: 20px !important; 
   margin-bottom: 20px;
-  color: #ededed;
+  color: #ff147a;
   letter-spacing: 2px;
 }
 
 
 .bottom-block__input {
   
-  background-color: #ededed;
+  background-color: #322b2b;
   border-radius: 25px;
   padding: 0px 5px 0px 25px;
   position: relative;
@@ -603,7 +604,7 @@ footer {
 }
 .bottom-block__error {
   margin-bottom: 5px;
-  color: #ff0000;
+  color: #ff9d00;
 }
 .bottom-block__btn {
   letter-spacing: .1em;
@@ -629,7 +630,7 @@ footer {
   
 }
 .bottom-block__cities-text {
-  color: #ffffff;
+  color: #1e1b1b;
   letter-spacing: 3px;
   font-weight: 700;
   font-size: 18px;
@@ -763,6 +764,8 @@ footer {
     
     height: 50px;
     width: 300px; */
+
+    
  .input {
   
   
@@ -772,7 +775,8 @@ footer {
   border: 2px solid transparent;
   border-radius: 25px;
   outline: none;
-  background-color: #ededed;
+  background-color: #ffffff;
+  border-color: rgba(234,76,137,0.4);
   color: #0d0c22;
   transition: .3s ease;
   height: 50px;
