@@ -15,11 +15,12 @@ body {
   /* background-image: url("../img/bgg.webp"); */
   /* background-size: 100%;
   background-repeat: repeat-y; */
-max-width: fit-content;
+
   display: flex;
   flex-direction: column;
   min-height: 100vh; 
 }
+
 
 .glow{
  
