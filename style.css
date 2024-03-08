@@ -56,6 +56,7 @@ body {
 
   .footer {
     padding: 20px;
+    bottom: -20px !important;
   }
 
 }
@@ -73,6 +74,7 @@ body {
 
   .footer {
     padding: 20px;
+    bottom: -20px !important;
   }
 
 }
@@ -89,7 +91,8 @@ body {
   }
 
   .footer {
-    padding: 20px;
+    padding: 10px;
+    bottom: -20px !important;
   }
 
 
@@ -124,7 +127,6 @@ body {
 
 
 .footer {
-
   color: white;
   text-align: center;
   padding: 40px;
@@ -182,7 +184,7 @@ body {
 }
 
 .second-page__bottom-block {
-  padding-top: 20px;
+  /* padding-top: 20px; */
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -595,4 +597,33 @@ button::-moz-focus-inner {
   width: 280px;
   height: 40px;
   z-index: 0;
+}
+
+/* #load{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  width:100%;
+  height:100%;
+  
+  z-index:9999;
+  background:url("/load.gif") no-repeat center center  rgb(231, 223, 221)
+
+} */
+
+#loader {
+  
+  width: 100%;
+  position:fixed;
+
+  background:url("/load.gif") no-repeat center center  rgb(231, 223, 221)
+}
+
+.center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }

@@ -3,6 +3,20 @@ import { section, item } from "./variables.js";
 import { createItemBlock } from "./createElements.js";
 import { data } from "./data.js";
 
+
+document.onreadystatechange = function () {
+    if (document.readyState !== "complete") {
+        document.querySelector(
+            "body").style.visibility = "hidden";
+        document.querySelector(
+            "#loader").style.visibility = "visible";
+    } else {
+        document.querySelector(
+            "#loader").style.display = "none";
+        document.querySelector(
+            "body").style.visibility = "visible";
+    }
+};
 createElements();
 
 function createElements() {
