@@ -1,4 +1,4 @@
-export const section = document.querySelector("#section");
+export const section = document.querySelector(".container");
 
 export const loader = document.querySelector(".loader");
 export const item = document.querySelector("#item");

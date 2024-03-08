@@ -1,4 +1,4 @@
-import { first_page, second_page, confirm_btn, input, item_img, item_text, bottom_block, item,loader } from "./variables.js";
+import { first_page, second_page, confirm_btn, input, item_img, item_text, bottom_block, item ,loader} from "./variables.js";
 
 import { createImageBlock } from "./secondPage.js";
 
@@ -11,6 +11,7 @@ export function createSecondPage(obj) {
 
     item_img.src = document.querySelector(`#${obj.id}-img`).src;
     item_text.innerHTML = document.querySelector(`#${obj.id}-text`).innerHTML;
+   
 }
 
 confirm_btn.addEventListener("click", async () => {

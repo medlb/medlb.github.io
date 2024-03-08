@@ -37,9 +37,10 @@ export function createVerifyBlockElements() {
 
 export function createItemBlock(index, imageURL, name) {
     return `
-            <picture>
-                <img src="${imageURL}" alt="${name}"  width="140" height="120" id="goods-${index}-img">
-            </picture>
-            <p class="item__text" id="goods-${index}-text">${name}</p>
-    `
+            <div class="wholepet" id="goods-${index}">
+                <img src="${imageURL}" alt="${name}" id="goods-${index}-img">
+            
+                <p class="item__text" id="goods-${index}-text">${name}</p>
+    
+            </div>`
 }
