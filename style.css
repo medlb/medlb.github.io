@@ -616,7 +616,7 @@ button::-moz-focus-inner {
   width: 100%;
   position:fixed;
 
-  background:url("/load.gif") no-repeat center center  rgb(231, 223, 221)
+  background:url("/load.webp") no-repeat center center  rgb(231, 223, 221)
 }
 
 .center {
