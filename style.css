@@ -542,8 +542,8 @@ button::-moz-focus-inner {
   text-align: center;
   font-weight: 800;
   font-size: 24px;
-  padding-top: 20px !important;
-  margin-bottom: 20px;
+  /* padding-top: 20px !important; */
+  margin-bottom: 2px;
   color: #ff147a;
   letter-spacing: 2px;
 }
