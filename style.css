@@ -21,8 +21,8 @@ body {
 }
 
 .container {
-  padding-top: 125px;
-  padding-bottom: 100px;
+  padding-top: 90px;
+  padding-bottom: 25px;
   width: 1400px;
   margin: 20px auto;
   columns: 4;
@@ -47,11 +47,24 @@ body {
   .container {
     width: calc(100% - 40px);
     columns: 3;
+    padding-top: 50px !important;
   }
 
   .navbar {
+    height: 50px !important;
     flex-direction: column;
     align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .navbar-logo img {
+    max-width: fit-content !important;
+    height: 60px !important;
+    
+  }
+  .navbar-logo {
+    
+    text-align: center !important;
   }
 
   .footer {
@@ -65,11 +78,24 @@ body {
   .container {
     columns: 2;
     column-gap: 5px;
+    padding-top: 50px !important;
   }
 
   .navbar {
+    height: 50px !important;
     flex-direction: column;
     align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .navbar-logo img {
+    max-width: fit-content !important;
+    height: 60px !important;
+    
+  }
+  .navbar-logo {
+    
+    text-align: center !important;
   }
 
   .footer {
@@ -83,12 +109,26 @@ body {
   .container {
     columns: 1;
     column-gap: 5px;
+    padding-top: 50px !important;
   }
 
   .navbar {
+    height: 50px !important;
     flex-direction: column;
     align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
   }
+  .navbar-logo img {
+    max-width: fit-content !important ;
+    height: 60px !important;
+    
+  }
+  .navbar-logo {
+    
+    text-align: center !important;
+  }
+  
 
   .footer {
     padding: 10px;
@@ -105,7 +145,6 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: #333;
-  padding: 10px;
   background-image: url("header.webp");
   background-size: cover;
   background-clip: border-box;
@@ -118,11 +157,19 @@ body {
   left: 0;
   z-index: 1000;
   /* Ensure the navbar appears above other content */
+  height: 80px;
+  flex-direction: column;
+  align-items: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .navbar-logo img {
-  max-width: 100%;
-  height: auto;
+  max-width: fit-content !important;
+  height: 100px ;
+}
+.navbar-logo {
+  text-align: center !important;
 }
 
 
