@@ -58,7 +58,7 @@ body {
     border-bottom-right-radius: 20px;
   }
   .navbar-logo img {
-    max-width: min-content !important;
+    max-width: 138px !important;
     height: 60px !important;
     
   }
@@ -89,7 +89,7 @@ body {
     border-bottom-right-radius: 20px;
   }
   .navbar-logo img {
-    max-width: min-content !important;
+    max-width: 138px !important;
     height: 60px !important;
     
   }
@@ -120,7 +120,7 @@ body {
     border-bottom-right-radius: 20px;
   }
   .navbar-logo img {
-    max-width: min-content !important ;
+    max-width: 138px !important ;
     height: 60px !important;
     
   }
@@ -165,7 +165,7 @@ body {
 }
 
 .navbar-logo img {
-  max-width: fit-content !important;
+  max-width: auto !important;
   height: 100px ;
 }
 .navbar-logo {
