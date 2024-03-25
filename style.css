@@ -203,7 +203,7 @@ body {
   text-align: center;
 }
 
-#wholepet {
+.wholepet {
   text-align: center;
   background-size: cover;
   background-clip: border-box;

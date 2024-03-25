@@ -56,9 +56,10 @@ export const data = [
     },
     {
         "bgColor": "radial-gradient(circle, rgba(255,95,95,1) 0%, rgba(25,2,92,1) 100%)",
-        "name": "Frost Fury",
-        "imageURL": "./img/items/11.webp"
+        "name": "Giraffe",
+        "imageURL": "./img/items/15.webp"
     },
+   
     {
         "bgColor": "radial-gradient(circle, rgba(255,95,95,1) 0%, rgba(25,2,92,1) 100%)",
         "name": "Golden Penguin",
@@ -76,9 +77,10 @@ export const data = [
     },
     {
         "bgColor": "radial-gradient(circle, rgba(255,95,95,1) 0%, rgba(25,2,92,1) 100%)",
-        "name": "Giraffe",
-        "imageURL": "./img/items/15.webp"
+        "name": "Frost Fury",
+        "imageURL": "./img/items/11.webp"
     },
+    
     {
         "bgColor": "radial-gradient(circle, rgba(255,95,95,1) 0%, rgba(25,2,92,1) 100%)",
         "name": "Bee",
